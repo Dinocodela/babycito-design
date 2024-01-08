@@ -349,37 +349,112 @@ button.btn.btn-default {
 
 
 
+<style>
+    .banner{
+      
+        width: 100%;
+        height: 542px;
+        position: relative;
+        
+    }
+    .title_banner{
+        width: 758px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 70px;  
+        margin: auto;
+        // background: green;
+    }
+    .title_banner h1{
+        width: 758px;
+        color: #343837;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 68px;
+        margin-bottom: 17px;
+    }
+    .title_banner p{
+        color: #5E6260;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.08px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .search_area{
+        width: 602px;
+        height: 55px;
+        flex-shrink: 0;
+        border-radius: 40px;
+        background: #FFF;
+        box-shadow: 0px 10px 10px 0px rgba(62, 85, 77, 0.05);
+        display: flex;
+        text-align: center;
+       
+    }
+    .search_button{
+        width: 100%;
+        margin-top: 10px;
+        float: right;
+    
+    }
+    .title_banner a h5{
+        color: #343837;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; 
+        text-decoration-line: underline;
+        margin-left: 40px;
+        margin-top: 28px;
+    }
+    .cs{
+        margin-left: 7px;
+    }
+   
+</style>
+
+
+
 
 
 <section class="secbanner ">
     <div class="container">
-        <div class="banner_title">
-            <h1>Find  Top-Rated Providers For Family Support</h1>   
-            <p>Discover local, trusted providers to meet all your family’s needs and wants</p>
-            <div class="banner_search_area" >
-                <div class="sl">
-                    <select name="" id="sl_category">
-                        <option value="Select Category" >Select Category</option> 
-                    </select> 
-                </div>
-                <div class="line">
-                    <img src="img/svg/line_icon.png" alt="">    
-                </div>
-                <div class="map">
-                    <img src="img/svg/map_icon.png" alt="">  
-                    <p>City, State</p>  
-                </div>
-                <div class="banner_btn">
-                    <button type="submit" class="btn_b">Search</button>
-                </div>
+        <div class="banner">
+            <div class="title_banner">
+                <h1>Find  Top-Rated Providers For Family Support </h1>
+                <p>Discover local, trusted providers to meet all your family’s needs and wants</p>
+                <div class="banner_search_area" >
+                    <div class="sl">
+                        <select name="" id="sl_category">
+                            <option value="Select Category" >Select Category</option> 
+                        </select> 
+                    </div>
+                    <div class="line">
+                        <img src="img/svg/line_icon.png" alt="">    
+                    </div>
+                    <div class="map">
+                        <img src="img/svg/map_icon.png" alt="">  
+                        <input type="text" placeholder="City, State" class="cs">
+                        <button type="submit" class="btn">Search</button>
+                    </div>
+                    
+                 </div>
+                <a href=""><h5>Search by Provider Name</h5></a>                 
             </div>
             
             
-
+            
         </div> 
-        <h3>Search by Provider Name</h3>
-    
-
+        
     </div>
 </section>
 
