@@ -169,7 +169,6 @@ body {
 
 }
 .content_area h3{
-    width: 236px;
     color: #343837;
     font-family: Poppins;
     font-size: 18px;
@@ -197,7 +196,7 @@ body {
   
 }
 .content_area p{
-    width: 229px;
+    /* width: 229px; */
     /* height: 65px; */
 
     color: #717473;
@@ -241,7 +240,7 @@ body {
 }
 .btn_area{
     margin-top: 60px;
-    margin-left: 545px;
+    /* margin-left: 545px; */
 }
 .btn_cca {
     display: inline-flex;
