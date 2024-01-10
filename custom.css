@@ -162,14 +162,43 @@ body {
     
 }
 .content_area{
-    /* width: 261px; */
+    width: 100%;
    
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
 
 }
-.content_area h3{
+.ttl{
     width: 236px;
+
+}
+.ttl h3{
+    color: #343837;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 0px;
+    padding-left: 12px;
+    padding-top: 12px;
+
+}
+.ttl p{
+   
+    width: 229px;
+
+    color: #717473;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+    margin-left: 12px;
+    margin-bottom: 12px;
+
+}
+/* .content_area h3{
     color: #343837;
     font-family: Poppins;
     font-size: 18px;
@@ -181,7 +210,7 @@ body {
     padding-top: 12px;
     
   
-}
+} */
 .inr{
     margin-top: 10px;
 }
