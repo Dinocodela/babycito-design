@@ -353,8 +353,9 @@ button.btn.btn-default {
 
 <section class="secbanner">
     <div class="container">
-        <div class="banner"  style="background-image: url('img/bg.png');   background-position: center;
-  background-repeat: no-repeat; width: 100%;">
+        <div class="banner_area_d">
+            <div class="banner"  style="background-image: url('img/bg.png');                    background-position: center;
+                background-repeat: no-repeat; width: 100%;">
             <div class="title_banner">
                 <h1>Find  Top-Rated Providers For Family Support </h1>
                 <p>Discover local, trusted providers to meet all your family’s needs and wants</p>
@@ -377,10 +378,36 @@ button.btn.btn-default {
                  </div>
                 <a href=""><h5>Search by Provider Name</h5></a>                 
             </div>
-            
-            
-            
         </div> 
+        </div>
+        <div class="banner_area_m">
+            <div class="banner">
+            <div class="title_banner">
+                <h1>Find  Top-Rated Providers For Family Support </h1>
+                <p>Discover local, trusted providers to meet all your family’s needs and wants</p>
+                <img src="img/bg_m.png" alt="">
+                <div class="banner_search_area" >
+                    <div class="sl">
+                        <select name="" id="sl_category">
+                            <option value="Select Category" >Select Category</option> 
+                        </select> 
+                    </div>
+                    <div class="line">
+                        <img src="img/svg/line_icon.png" alt="">    
+                    </div>
+                    <div class="map">
+                        <img src="img/svg/map_icon.png" alt="">  
+                        <input type="text" placeholder="City, State" class="cs">
+                        <button type="submit" class="btn d_bg_search">Search</button>
+                        <button type="submit" class="btn m_bg_search"><img src="img/search_icon_m.png" alt=""></button>
+                    </div>
+                    
+                 </div>
+                <a href=""><h5>Search by Provider Name</h5></a>                 
+            </div>
+        </div> 
+        </div>
+        
         
     </div>
 </section>
@@ -420,7 +447,7 @@ button.btn.btn-default {
                                 <p>Dr. Kabir understands that each path to optimal health and wellness is unique. That’s</p>
                             </div>
                             
-                            <img src="img/svg/svg2.png" alt="" style="">
+                            <img src="img/svg/svg2.png" alt="" class="under_line">
                             <div class="inr">
                                 <div class="svg_icon">
                                     <img src="img/svg/svg1.png" alt=""> 
@@ -711,7 +738,7 @@ button.btn.btn-default {
                 </div>
                 <div class="col-md-3 col-lg-3 ">
                     <div class="main_box">
-                        <div class="image_area" style="background-image: url('img/rec2.png'); ">
+                        <div class="image_area" style="background-image: url('img/rec10.png'); ">
                             <div class="heart_area">
                                 <img class="heart_w_346" src="https://babycito.co/assets/frontend/images/heart_w.png" alt="">
                             </div>
@@ -775,7 +802,7 @@ button.btn.btn-default {
                 </div>
                 <div class="col-md-3 col-lg-3 ">
                     <div class="main_box">
-                        <div class="image_area" style="background-image: url('img/rec2.png'); ">
+                        <div class="image_area" style="background-image: url('img/rec12.png'); ">
                             <div class="heart_area">
                                 <img class="heart_w_346" src="https://babycito.co/assets/frontend/images/heart_w.png" alt="">
                             </div>
@@ -822,27 +849,34 @@ button.btn.btn-default {
                         <h2>Create a Babycito Service Registry</h2>   
                         <p>Our babycito service registry offers families an easy way to request gifts or services, activities and/or experiences (instead of or in addition to physical gifts) - great for baby registries, birthdays, holidays, and more!</p> 
                     </div>
-                    <button class="btn_cjf cabf"><a href="#" class="btn_text">Learn More</a></button>
-
-
+                    <div class="box_btn">
+                        <button class="btn_cjf cabf"><a href="#" class="btn_text">Learn More</a></button>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 ">
                 <div class="box_main" style="background: #ECF9FF;">
-                    <div class="jbfp_content">
+                    <div class="box_content">
                         <h2>Join Babycito as a Family-Focused Provider</h2>   
                         <p>Want your business to be seen by more local families, grow your client base and referral network, take advantage of marketing perks, and MORE? Join babycito’s community of local, trusted providers.</p> 
                     </div>
-                    <button class="btn_cjf jbaf" ><a href="#" class="btn_text">Learn More</a></button>
+                    <div class="box_btn">
+                        <button class="btn_cjf jbaf"><a href="#" class="btn_text">Learn More</a></button>
+                    </div>
+
+                    
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 ">
                 <div class="box_main" style="background: #ECFFEC;">
-                    <div class="fcsl_content">
+                    <div class="box_content ">
                         <h2>Family Concierge Services: Let us do The Legwork</h2>   
                         <p>We offer local families individual, tailored support to connect them with the local providers they need and want.</p>
                     </div>
-                    <button class="btn_cjf fcs"><a href="#" class="btn_text">Learn More</a></button>
+                    <div class="box_btn box_btn_last">
+                        <button class="btn_cjf fcs"><a href="#" class="btn_text">Learn More</a></button>
+                    </div>
+                    
                 </div>
             </div>
         </div>
