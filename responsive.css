@@ -99,23 +99,6 @@
         margin-bottom: 24px!important;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .secProviders_cjf {
         background: #fff;
         padding-top: 10px!important;
@@ -424,4 +407,46 @@
         
       }
 
+      /* provider datails css */
+    .left_area_pd{
+        padding: 0px 0px!important;
+    }
+    .banner_pd_title {
+        width: 100%;
+        margin-top: 32px!important;
+        margin-bottom: 8px!important;
+    }
+    .banner_pd_title h2 {
+        color: #484848;
+        font-family: Poppins;
+        font-size: 34px!important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 41px!important;
+        letter-spacing: 0.17px!important;
+        width: 100%;
+    }
+    
+    .banner_pd_btn_right {
+        background: #E8F7F4;
+        color: #494949;
+        margin-left: 0px!important;
+    }
+    .banner_pd_btn{
+        padding: 16px 20px!important;
+        
+    }
+    .banner_pd_btn_area{
+        width: 100%;
+    }
+    .banner_pd_btn_area {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0.172px;
+        text-align: center!important;
+    }
 }
