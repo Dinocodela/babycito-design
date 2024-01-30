@@ -449,4 +449,109 @@
         letter-spacing: 0.172px;
         text-align: center!important;
     }
+
+
+    .left_area_pd_bn{
+        margin-bottom: 32px!important;
+    }
+    .left_area_d{
+        display: none;
+    }
+    .left_area_m{
+        display: block;
+    }
+    .desc_ttl h2 {
+        color: #484848;
+        font-family: Poppins;
+        font-size: 26px!important;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px!important; 
+    }
+    .sec_providers_details {
+        padding-top: 32px!important;
+        padding-bottom: 32px!important;
+    }
+    .r_content_area_1 h3 {
+        color: #525252;
+        font-family: Poppins;
+        font-size: 18px!important;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px!important; 
+        margin-bottom: 8px!important;
+    }
+    .right_area{
+        padding: 5px!important;
+    }
+    .content_list {
+        margin-top: 12px!important;
+        margin-bottom: 32px!important;
+    }
+    .contact_info_area {
+        width: 100%px;
+        height: 300px!important;
+        border-radius: 4px 4px 0px 0px;
+        background: #FFF;
+        padding: 32px 16px 32px 16px!important;
+    }
+    .contact_info_img {
+        width: 122px;
+        height: 98px;
+        border-radius: 4px;
+        display: inline-block;
+    }
+    .title_review_link_area h5 {
+        color: #424242;
+        font-family: Poppins;
+        font-size: 20px!important;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15px;
+        margin-bottom: 16px;
+    }
+    .title_review_link_area {
+        display: inline-block;
+    }
+    .media {
+        font-size: 15px!important;
+        padding: 0px 15px 0px 0px!important;
+    }
+    .contact_title h2 {
+        font-size: 26px!important;
+        margin-bottom: 23px!important;
+    }
+    .loc_add h5 {
+        color: #747776;
+        font-family: Poppins;
+        font-size: 18px!important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-bottom: 0px!important;
+        margin-left: 10px!important;
+    }
+    .location_area {
+        margin-top: 32px;
+        display: flex;
+    }
+    .loc_icon {
+        display: inline-block;
+        margin-top: 2px;
+    }
+    .sec_providers_table {
+        background: #fff;
+        padding: 32px 0px 50px!important;
+    }
+    .main_title h2 {
+        font-size: 26px!important;
+        line-height: 26px!important;
+        
+    }
+    /* .table_area_d{
+        display: none;
+    } */
+    /* .table_area_m{
+        display: block;
+    } */
 }
