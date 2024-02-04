@@ -531,9 +531,9 @@ body {
 .dropdown_icon {
     position: absolute;
     /* top: -8px; */
-    font-size: 30px;
+    font-size: 22px;
     left: 245px;
-    bottom: -7px;
+    bottom: -4px;
 }
 #s_cat{
     color: #888C8B;
@@ -590,7 +590,7 @@ body {
     font-weight: 500;
     line-height: 15px; 
     letter-spacing: 0.188px;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
 }
 
 .btn_cjf{
@@ -601,16 +601,19 @@ body {
     gap: 10px;
     border-radius: 30px;
     border: 1px solid #3EB589;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .cabf{
-background: #FFF7EA;
+    background: #FFF7EA;
+    color:#59554F
 }
 .jbaf{
-background: #ECF9FF;
+    background: #ECF9FF;
+    color: #4F5559;
 }
 .fcs{
-background: #ECFFEC;
+    background: #ECFFEC;
+    color: #4F5956;
 }
 .m_bg_search{
     display: none;
@@ -726,7 +729,57 @@ box-shadow: 0px 13px 20px 0px rgba(14, 16, 15, 0.05);
   .table_area_m{
     display: none;
   }
-  /* .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #555;
-    color: white;
-  } */
+  .text_btn_pro{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.175px;
+}
+.btn_pr_area{
+    text-align: center;
+    /* cursor: pointer; */
+    margin-bottom: 60px;
+}
+
+.right{
+    background: #F9FAFC;
+    color: #525252;
+
+}
+.right:hover{
+    background: #3EB589;
+    color: #fff;
+}
+.left{
+    margin-right: 24px;
+}
+.left:hover{
+    color: #fff;
+    background-color: #379f79;
+}
+
+
+
+
+
+.select-menu{
+    width: 100%;
+}
+.select-menu .select-btn{
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.select-btn i{
+    font-size: 25px;
+}
+.select-menu .options{
+    position: relative;
+    padding: 20px;
+}

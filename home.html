@@ -348,46 +348,20 @@ button.btn.btn-default {
 
 </style>
 
-
-
 <section class="secbanner">
     <div class="container">
         <div class="banner_area_d">
-            <div class="banner"  >
+            <div class="banner"  style="margin-bottom: -60px;">
                 <div class="title_banner">
-                <h1><span>trusted</span> family support starts here</h1>
-                <p>Discover local, trusted providers to meet all your family’s needs and wants</p>
+                <h1>find top-rated providers
+                for family support</h1>
+                <p>Discover trusted providers to support parents and children (ages 0-12)</p>
 
                 <div class="bg_search_area">
                     <div class="left_section">
-                        <div class="select-menu d-none">
-                            <div class="select-btn">
-                                <span class="sBtn-text">Select Category</span>
-                                <i class="fa fa-caret-down "></i>
-                            </div>
-                            <ul class="options">
-                                <li class="option">
-                                    <i><img src="img/drop_icons/d1.png" alt=""></i>
-                                    <span>Childcare and Nanny</span>
-                                </li>    
-                            </ul>
-                        </div>
-                        
-                        <div class="dropdown ">
-                            <a href=""><button class="dropbtn">Select Category 
-                                <i class="fa fa-caret-down dropdown_icon"></i>
-                            </button></a>
-                            <div class="dropdown-content">
-                                <a href="#" class="drop_inner"><img src="img/drop_icons/d1.png" alt="">Childcare and Nanny</a>
-                                <a href="#" class="drop_inner"><img src="img/drop_icons/d2.png" alt="">Sleep Support</a>
-                                <a href="#" class="drop_inner"><img src="img/drop_icons/d3.png" alt="">Community / Groups</a>
-                                <a href="#" class="drop_inner"><img src="img/drop_icons/d4.png" alt="">Parent Education</a>
-                                <a href="#" class="drop_inner"><img src="img/drop_icons/d5.png" alt="">Fun / Activities</a>
-                                <a href="#" class="drop_inner"><img src="img/drop_icons/d6.png" alt="">Family Health and Wellness</a>
-                                <a href="#" class="drop_inner"><img src="img/drop_icons/d7.png" alt="">Home Management </a>
-                               
-                            </div>
-                        </div>
+                        <select name="" id="s_cat">
+                            <option value="Select Category" >Select Category</option> 
+                        </select> 
                     </div>
                     <div class="midel_section">
                         <img src="img/svg/line_icon.png" alt="">  
@@ -439,336 +413,1125 @@ button.btn.btn-default {
     </div>
 </section>
 
-
-
 <style>
-
-.heart_content h5{
-    display: inline-block;
-    position: absolute;
-    font-size: 12px;
-    left: 0;
-    bottom: 0;
-}
-
-
-.left_area{
-   margin-bottom: 60px; 
-}
-.btn_pro{
-    display: inline-flex;
-    padding: 15px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: 1px solid #3EB589;
-    border-radius: 30px;
-    background: #3EB589;
-}
-
-
-
-
-
-
-
-
-
-
+    .secbabycito_layout{
+            width: 100%;
+            height: 350px;
+        }
+    .layout_box_area{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 125px;
+    }
+    .layout_box{
+        width: 125px;
+        padding: 10px;
+        background: #fff;
+        border-radius: 4px;
+        margin: 20px;
+    }
+    .layout_box img{
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .layout_box h5{
+        font-size: 16px;
+        color: #595959;
+        line-height: 22px;
+    }
+    
 </style>
 
-<section class="sec_providers">
+
+
+    
+<section class="secbabycito_layout" style="background-image: url('img/ly2.png'); background-size: 100% 100%;" >
+    <div class="container">
+        <div class="layout_box_area">
+            <div class="layout_box">
+                <img src="img/lb1.png" alt=""> 
+                <h5>Search Providers</h5>   
+            </div>
+            <div class="layout_box">
+                <img src="img/lb2.png" alt=""> 
+                <h5>Create a Registry</h5>   
+            </div>
+            <div class="layout_box">
+                <img src="img/lb3.png" alt=""> 
+                <h5>Find a Registry</h5>   
+            </div>
+            <div class="layout_box">
+                <img src="img/lb4.png" alt="">  
+                <h5>Family Concierge</h5>  
+            </div>
+
+        </div>
+    </div>    
+</section>
+<style>
+        
+        
+        .secbabycito{
+            width: 100%;
+            background: #fff;
+            padding-top: 110px;
+            padding-bottom: 120px;
+           
+        }
+        .secbabycito_1{
+            width: 100%;
+            background: #fff;
+            padding-top: 100px;
+            padding-bottom: 120px;
+        }
+        .works_1{
+            width: 100%;
+            padding-top: 100px;
+            border-radius: 9px;
+            border: 1px solid #DDEBE6;
+            background: #F9FCFA;
+        }
+        .heading_1{
+            padding-top: 110px;
+            text-align: center;
+            color: #484848;
+            font-size: 47px;
+            font-style: normal;
+            font-family: poppins;
+            font-weight: 600;
+            line-height: 54px;
+            text-transform: lowercase;
+        }
+        .heading_2{
+            color: #5E6260;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0.075px; 
+        }
+        .heading_3{
+            text-align: center;
+            color: #484848;
+            font-family: Poppins;
+            font-size: 43px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 50px;
+            text-transform: lowercase;
+        }
+        .heading_4{
+            padding-top: 110px;
+            width: 746px;
+            color: #484848;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 43px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 50px;
+            text-transform: lowercase;
+            margin: 0 auto;
+                    }
+       
+        
+        .left_area{
+            width: 100%;
+            height: 344px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #8BDEBF;
+        }
+       
+        .left_area_1{
+            width: 356px;
+            height: 172px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #FFD6EF;
+            margin: 0 auto;
+        }
+        .middle_area_1{
+            width: 356px;
+            height: 172px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #FFEB68;
+            margin: 0 auto;
+        }
+        .right_area_1{
+            width: 356px;
+            height: 172px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #8BDEBF;
+            margin: 0 auto;
+        }
+        .left_area_2{
+            width: 356px;
+            height: 411px;
+            flex-shrink: 0;
+            border-radius: 9px;
+            border: 1px solid #DDEBE6;
+            background: #FFF;
+            margin-left: 62px;
+        }
+
+        .middle_area_2{
+            width: 356px;
+            height: 411px;
+            flex-shrink: 0;
+            border-radius: 9px;
+            border: 1px solid #DDEBE6;
+            background: #FFF;
+            margin: 0 auto;
+
+        }
+
+        .right_area_2{
+            width: 356px;
+            height: 411px;
+            flex-shrink: 0;
+            border-radius: 9px;
+            border: 1px solid #DDEBE6;
+            background: #FFF;
+        }
+        .blog_s{
+            display: flex;
+            gap: 10px;
+            padding-left: 163px;
+            padding-right: 163px;
+        }
+
+        .baby_title h2{
+            color: #484848;
+            font-family: Poppins;
+            font-size: 47px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 54px; 
+            text-transform: lowercase;
+            text-align: center;
+        }
+        .baby_p p{
+            width:477px ;
+            text-align: center;
+            margin: 0 auto;
+            
+        }
+        .baby_p p{
+            color: #5E6260;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0.075px;
+            width: 477px;
+            margin-bottom: 85px;
+            
+        }
+        .baby_w p{
+            width:477px ;
+            text-align: center;
+            margin: 0 auto;
+        }                          
+        .baby_w{
+            text-align: center;
+            color: #363837;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; 
+            
+        }
+       
+        .h5_2{
+            color: #343434;
+            font-family: Poppins;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 32px;
+            padding-left: 34px;
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+        .p_1{
+            padding-left: 34px;
+            color: #363837;
+            font-family: Poppins;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0.11px;
+            width: 365px;
+            height: 96px;
+        }
+        .p_2{
+            padding-left: 34px;
+            color: #363837;
+            font-family: Poppins;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0.11px;
+            width: 365px;
+            height: 128px;
+        }
+
+        .button_area_left{
+            display: flex;
+            padding-left: 34px;
+            padding-right: 181px;
+            gap: 10px;
+            padding-top: 72px;
+        }
+        .button_area_right{
+            display: flex;
+            padding-left: 34px;
+            padding-right: 181px;
+            gap: 10px;
+            padding-top: 40px;
+        }
+        .button_1{
+            font-size: 14px;
+            padding: 10px 16px;
+            border-radius: 30px;
+            background: #FFF;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+        .button_2{
+            font-size: 14px;
+            padding: 10px 16px;
+            border-radius: 30px;
+            border: 1px solid #484848;
+            background: #8BDEBF;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+        }
+        .button_3{
+            font-size: 14px;
+            padding: 10px 16px;
+            border-radius: 30px;
+            background: #FFF;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+        .button_4{
+            font-size: 14px;
+            padding: 10px 16px;
+            border-radius: 30px;
+            border: 1px solid #484848;
+            background: #FFEB68;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+        .button_5{
+            font-size: 22px;
+            width: 64px;
+            height: 64px;
+            flex-shrink: 0;
+            border-radius: 32px; 
+            margin-top: 8px;
+            margin-bottom: 8px;
+            background-color: white;
+        } 
+        .button_6{
+            font-size: 22px;
+            width: 64px;
+            height: 64px;
+            flex-shrink: 0;
+            border-radius: 32px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            background-color: white;
+             
+        }  
+        .button_7{
+            font-size: 22px;
+            width: 64px;
+            height: 64px;
+            flex-shrink: 0;
+            border-radius: 32px; 
+            margin-top: 8px;
+            margin-bottom: 8px;
+            background-color: white;
+        }         
+        .left1{
+            display: flex;
+            gap: 20px;
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 45px;
+        }
+        .middle1{
+            display: flex;
+            gap: 20px;
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 45px;
+        }
+        .right1{
+            display: flex;
+            gap: 20px;
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 45px;
+        }
+        .container_1{
+            width: 100%;
+            background: #fff;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .blog_1{
+            width: 354px;
+            height: 197px;
+            flex-shrink: 0;
+            border-radius: 8px 8px 0px 0px;
+            background: url(<path-to-image>), lightgray 50% / cover no-repeat, #D9D9D9;
+        }
+        .blog_heading{
+            padding-left: 16px;
+            padding-top: 17px;
+            color: #343837;
+            font-family: Poppins;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 32px;
+        }
+        .blog_p p{
+            width: 325px;
+            padding-left: 16px;
+            padding-top: 16px;
+            margin-bottom: 0pximportant;
+            color: #717473;
+            font-family: Poppins;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+        .blog_p_m{
+            padding-left: 16px;
+            color: #3EB589;
+            font-family: Poppins;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 15px;
+        }
+        .blog_svg{
+            display: flex;
+            gap: 1px;
+            padding-top: 27px;
+        }
+        .blog_vgs_all{
+           
+            fill: #3EB589;
+            stroke-width: 2px;
+            stroke: #3EB589;
+        }
+        .reviews{
+            width: 100%;
+            height: 951px;
+            flex-shrink: 0;
+            background: rgba(252, 213, 63, 0.06);
+        }
+        .star_5{
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-left: 65px;
+            align-items: center;
+            width: 190px;
+            height: 30px;
+
+        }
+        .star_box{
+            margin: 0 auto; 
+            text-align: center;
+            width: 312px;
+            padding-top: 40px;
+            padding-bottom: 80px;
+        }
+        .left_reviews{
+            width: 546px;
+            height: 371px;
+            border-radius: 8px;
+            background: #FFEB68;
+            margin-left: 90px;
+        }
+        .right_reviews{
+            width: 546px;
+            height: 371px;
+            border-radius: 8px;
+            background: #FFEB68;
+        }
+        .review_image_1{
+            width: 72px;
+            height: 72px;
+            border-radius: 72px;
+            margin: 0 auto;
+            padding-top: 36px;
+        }
+        .review_heading_1{
+            color: #484848;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 22px;
+            padding-top: 54px;
+        }
+        .review_d{
+            color: #363837;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 15px; 
+            padding-top: 12px;
+            padding-bottom: 26px;
+        }
+        .review_p{
+            color: #363837;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 15px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 24px;
+            height: 96px;
+            width: 454px;
+            margin: 0 auto;
+        }
+        .p_star{
+            display: inline-flex;
+            align-items: flex-start;
+            gap: 6px;
+            padding-left: 211px;
+            padding-top: 16px;
+
+        }
+        .review_dot{
+            padding-top: 50px;
+            fill: #3EB589;
+            display: flex;
+            gap: 10px;
+            text-align: center;
+            margin: 0 auto;
+            height: 12px;
+            width: 155px;
+        }
+        .question_area{
+            gap: 13px;
+            padding-top: 120px;
+            padding-bottom: 120px;
+            height: auto;
+            width: 100%;
+            background: #FFF;
+            margin: 0 auto;
+            display: flex;
+            
+        }
+        .left_question_area{
+            width: 518px;
+            height: 250px;
+            margin-left: 90px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #FFD6EF;
+        }
+        .question_all{
+            width: 546px;
+            height: 54px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #F0F8F5;
+            color: #535353;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 18px;
+            padding-top: 18px;
+            padding-left: 16px;
+        }
+        .asked_questions{
+            color: #363837;
+            font-family: Poppins;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 32px;
+            padding-top: 32px;
+            padding-left: 32px;
+        }
+        .p_questions{
+            padding-top: 30px;
+            padding-left: 32px;
+            width: 437px;
+            color: #363837;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px;
+        }
+        .question_bottom{
+            display: flex;
+            padding-top: 30px;
+            padding-left: 32px;
+            gap: 16px;
+        }
+        .left_question_bottom{
+            font-size: 14px;
+            display: flex;
+            padding: 10px 16px;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 30px;
+            background: #FFF;
+            font-family: Poppins;
+            color: #343434;
+            font-weight: 500;
+        }
+        .right_question_bottom{
+            font-size: 14px;
+            display: flex;
+            padding: 10px 16px;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 30px;
+            font-family: Poppins;
+            color: #343434;
+            font-weight: 500;
+            border: 1px solid #484848; 
+        }
+        
+    </style>
+
+
+
+    <style>
+
+        
+      
+        .left_area_bbst{
+            width: 100%;
+            height: 344px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #8BDEBF;
+        }
+        .baby_sub_title h5{
+            color: #343434;
+            font-family: Poppins;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 32px;
+            padding-left: 34px;
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }   
+        .button_area{
+            margin-top: 50px;
+            padding-left: 34px;
+        } 
+        .btn_s, .btn_c{
+            background: #fff;
+            color: #343434;
+            border: none;
+        }
+        .btn_s:hover{
+            background: #8BDEBF;
+            border: 1px solid #fff;
+           
+        }
+        
+        .btn_j{
+            background: #8BDEBF;
+            color: #343434;
+            border: 1px solid #484848;
+            margin-left: 10px;
+        }
+        .btn_f{
+            background: #FFEB68;
+            color: #343434;
+            border: 1px solid #484848;
+            margin-left: 10px;
+        }
+        
+        .right_area_bbst{
+            width: 100%;
+            height: 344px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: #FFEB68;
+        
+        }
+    </style>
+<section class="secbabycito">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="btn_pr_area">
-                    <a href="#"><button class="btn left">All Categories</button></a>
-                    <a href="#"><button class="btn right">Top Categories</button> </a>
-                       
-                </div>    
-            </div>
-            <div class="col-md-6 col-lg-6 col-6 d-none">
-                <div class="left_area" style="float: right;">
-                    <button class="btn_pro "><a href="#" class="text_btn_pro">All Categories</a></button>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-6 d-none">
-                <div class="right_area" style="float: left;">
-                    <button class="btn_pro right"><a href="#" class="text_btn_pro">Top Categories</a></button>
-                </div>
-            </div>
+                <div class="baby_title">
+                    <h2>Babycito (baby-see-toe)</h2> 
+                </div> 
+                <div class="baby_p"><p>Northern Virginia’s one-stop shop for family services, supporting parents and children (0-12)</p></div>   
+            </div>   
         </div>
         <div class="row">
-            <div class="col-md-3 col-lg-3 col-6 col-6">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p1.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v1.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Childcare And Nanny</h5>    
-                        </div>
+            <div class="col-md-6">
+                <div class="left_area_bbst" style="background-image: url(img/rec11.png);
+                background-repeat: no-repeat; background-position: right bottom;">
+                    <div class="baby_sub_title">
+                        <h5>Providers</h5>
+                    </div>
+                    <div class="p_1">Search our carefully curated directory of trusted, local providers.
+                    </div>
+                    <div class="button_area">
+                        <button class="btn btn_s">Search Providers</button>
+                        <button class="btn btn_j">Join as a Provider</button>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 col-6">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p2.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v2.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Community / Groups</h5>    
-                        </div>
+            </div>    
+            <div class="col-md-6">
+                <div class="right_area_bbst" style="background-image: url(img/rec11.5.png);background-repeat: no-repeat; background-position: right bottom;">
+                    <div class="h5_2">Registry</div>
+                    <div class="p_2">Create a cash fund registry for family support services. Find a registry for a friend or family member.
+                    </div>
+                    <div class="button_area">
+                        <button class="btn btn_c">Create a Registry</button>
+                        <button class="btn btn_f">Find a Registry</button>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 col-6">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p3.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v3.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Family Health & Wellness</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 col-6">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p4.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v4.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Feeding Support</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div>    
         </div>
-        <div class="row">
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p5.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v5.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Fun / Activities</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p6.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v6.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Gear Rentals</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p7.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v7.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Home Management </h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p8.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v8.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Medical/Dental Care</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p9.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v9.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Mental Health</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p10.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v10.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Sleep Support</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p11.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v11.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Parent Education</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p12.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v12.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Party Planning</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p13.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v13.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Photography</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p14.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v14.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Postpartum Support</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p15.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v15.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Pregnancy & Labor Supp...</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p16.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v16.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Private Schools</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p17.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v17.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Therapy</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3 col-6 ">
-                <div class="main_box">
-                    <div class="image_area_providers" style="background-image: url('img/pictures/p18.png'); ">
-                        <div class="icon_area">
-                            <img src="img/v18.png" alt="">    
-                        </div>
-                        <div class="title_area">
-                            <h5>Treat Yourself (or others!)</h5>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </div>    
 </section>
-<section class="secProviders_cjf">
+
+<style>
+    .secbabycito_fss {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+
+        }
+        
+    .title_fssf h2{
+        font-size: 47px;
+        color: #484848;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .icon_fss{
+        display: inline-block;
+        width: 50px;
+        height: 32px;
+        
+    }
+    .s_title_fss{
+        display: inline-block;
+        width: 80%;
+        margin-left: 10px;
+        
+
+    }
+    
+    .s_title_fss h3{
+        
+        font-size: 22px;
+    }
+    .list h5{
+        font-size: 18px;
+        color: #484848;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .box_area{
+        width: 100%;
+        background: #fff;
+        padding: 25px;
+        border-radius: 4px;
+        margin: 10px;
+        height: 450px;
+    }
+    .list ul{
+        list-style: none;
+        padding: 0px;
+  
+    }
+    .list ul li {
+        padding: 7px;
+        padding-left: 0px;
+    }
+    .list ul li:before {
+        content: '✓';
+        color: #3db488; 
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 10px;
+    }
+   
+    
+</style>
+<section class="secbabycito_fss" style="background-image: url(img/fss_bg.png); background-repeat: no-repeat; background-size: 100% 100%;">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-lg-4 ">
-                <div class="box_main">
-                    <div class="box_content">
-                        <h2>Create a Babycito Service Registry</h2>   
-                        <p>Our babycito service registry offers families an easy way to request gifts or services, activities and/or experiences (instead of or in addition to physical gifts) - great for baby registries, birthdays, holidays, and more!</p> 
+            <div class="col-md-12">
+                <div class="title_fssf">
+                    <h2>Family Support Services For Every Stage</h2>    
+                </div>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="box_area">
+                    <div class="inner">
+                    <div class="icon_fss">
+                        <img src="img/fss1.png" alt="">  
                     </div>
-                    <div class="box_btn">
-                        <button class="btn_cjf cabf"><a href="https://www.babycito.co/find-registry" class="btn_text">Learn More</a></button>
+                    <div class="s_title_fss">
+                        <h3>For Tiny (0 -2)</h3>    
+                    </div>
+                    </div>
+                    <div class="list">
+                        <h5>Key services at this stage:</h5>
+                        <ul>
+                            <li>Doulas (birth and postpartum)</li>
+                            <li>Location consultants</li>
+                            <li>Chiropractors (perinatal and child)</li>
+                            <li>Sleep Consultants</li>
+                            <li>Nannies/Babysitters</li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-lg-4 ">
-                <div class="box_main" style="background: #ECF9FF;">
-                    <div class="box_content">
-                        <h2>Join Babycito as a Family-Focused Provider</h2>   
-                        <p>Want your business to be seen by more local families, grow your client base and referral network, take advantage of marketing perks, and MORE? Join babycito’s community of local, trusted providers.</p> 
+            </div>    
+            <div class="col-md-4">
+                <div class="box_area">
+                    <div class="inner">
+                        <div class="icon_fss">
+                            <img src="img/fss2.png" alt="">  
+                        </div>
+                        <div class="s_title_fss">
+                            <h3>For Litt3e (2 - 5)</h3>    
+                        </div>
                     </div>
-                    <div class="box_btn">
-                        <button class="btn_cjf jbaf"><a href="https://babycito.co/pages/how-providers-can-join" class="btn_text">Learn More</a></button>
+                    <div class="list">
+                        <h5>Key services at this stage:</h5>
+                        <ul>
+                            <li>Childcare centers/preschools</li>
+                            <li>Classes and activities</li>
+                            <li>Pediatric Therapists (PT, OT speech)</li>
+                            <li>Therapists (PT, OT speech)</li>
+                            <li>Babysitters</li>
+                            <li>Classes and activities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-md-4">
+                <div class="box_area">
+                    <div class="inner">
+                        <div class="icon_fss">
+                            <img src="img/fss3.png" alt="">  
+                        </div>
+                        <div class="s_title_fss">
+                            <h3>For Big (5 + Years)</h3>    
+                        </div>
+                    </div>
+                    <div class="list">
+                        <h5>Key services at this stage:</h5>
+                        <ul>
+                            <li>Classes and activities</li>
+                            <li>Summer Camps</li>
+                            <li>Parent Coaches</li>
+                            <li>Birthday providers</li>
+                            <li>Babysitters</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+               
+        </div>
+    </div>    
+</section>
+
+<section class="secbabycito_1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="baby_title">
+                    <h2>How it Works</h2> 
+                </div> 
+                <div class="baby_p"><p>babycito makes it easy for you to find and connect with local, family-focused providers.</p></div>   
+            </div>    
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="left_area_1">
+                    <div class="left1">
+                        <button class="button_5"><b>01</b></button>
+                        <div style="font-size: 15px;"><b>Learn about services and search for the support you need</b></div>
+                    </div> 
+                </div>
+            </div>    
+            <div class="col-md-4">
+                <div class="middle_area_1">
+                    <div class="middle1">
+                        <button class="button_6"><b>02</b></button>
+                        <div style="font-size: 15px;"><b>Connect with providers and/or add services to your babycito service registry</b></div>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-md-4">
+                <div class="right_area_1">
+                    <div class="right1">
+                        <button class="button_7"><b>03</b></button>
+                        <div style="font-size: 15px;"><b>Get the support you need and want for your growing family! </b></div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>    
+</section>
+
+
+<style>
+    .secbabycito_gift{
+        padding-top: 100px;
+        background: #E1F6EE;
+        text-align: center;
+    }
+    .secbabycito_gift h2{
+        font-size: 43px;
+        color: #484848;
+    }
+    .gift_title span{
+        font-style: italic;
+    }
+    .gift_content p{
+        font-size: 18px;
+    }
+    .gift_content span{
+        color: black;
+        font-weight: 600;
+    }
+</style>
+<section class="secbabycito_gift d-none">
+    <div class="container">
+        <div class="gift_title">
+            <h2>gift more <span>memories,</span> fewer things</h2>    
+        </div>
+        <div class="gift_content">
+            <p>Our<span>babycito service registry</span> makes it easy to request and receive 
+            gifts of services, activities and/or experiences.</p>
+        </div>
+    </div>    
+</section>
+<style>
+
+    
+    
+</style>
+
+<section class="works_1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading_3">
+                    <h2>Recent Blogs</h2> 
+                </div> 
+                <div class="baby_w"><p>Get the latest on NOVA activities and events, parenting tips, local resources, and more!</p></div>   
+            </div>    
+        </div> 
+        <div class="row" style=" padding-top: 87px; padding-bottom: 120px;">
+            <div class="col-md-4">
+                <div class="left_area_2">
+                    <div class="blog_1">
+                        <img src="img/blog_img_2.png" alt="">
+                    </div>
+                    <div class="blog_heading">
+                        Holiday Traditions - Ways to Start Your Own!
+                    </div>
+                    <div class="blog_p"><p style="margin-bottom: 0px;">This article was written and contribute by Lindsey Hollaar, Mama’</p>
                     </div>
 
                     
+                    <div class="blog_svg">
+                        <div class="blog_p_m">READ MORE &rarr;</div>
+                        <div class="blog_vgs_all">
+                            
+                        </div>
+                    </div> 
+                </div>
+            </div>    
+            <div class="col-md-4">
+                <div class="middle_area_2">
+                    <div class="blog_1">
+                        <img src="img/blog_img_3.png" alt="">
+                    </div>
+                    <div class="blog_heading">
+                        Holiday Traditions - Ways to Start Your Own!
+                    </div>
+                    <div class="blog_p"><p style="margin-bottom: 0px;">This article was written and contribute by Lindsey Hollaar, Mama’</p>
+                    </div>
+                    <div class="blog_svg">
+                        <div class="blog_p_m">READ MORE &rarr;</div>
+                        <div class="blog_vgs_all">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-md-4">
+                <div class="right_area_2">
+                    <div class="blog_1">
+                        <img src="img/blog_img_1.png" alt="">
+                    </div>
+                    <div class="blog_heading">
+                        Holiday Traditions - Ways to Start Your Own!
+                    </div>
+                    <div class="blog_p"><p style="margin-bottom: 0px;">This article was written and contribute by Lindsey Hollaar, Mama’</p>
+                    </div>
+                    <div class="blog_svg">
+                        <div class="blog_p_m">READ MORE<span style="font-weight: 600;
+                            margin-left:px;">&rarr;</span></div>
+                        <div class="blog_vgs_all">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</section>
+    <section class="reviews">
+        <div class="container">
+                <div class="heading_4">Our Providers Have Earned Over 2,000+  5-star Reviews on Google!</div>
+            <div class="star_box">
+                <div class="star_5">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
+                    </svg>
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
+                    </svg>
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
+                    </svg>
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
+                    </svg>
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
+                    </svg>
+                </div>
+                <p style="font-size: 22px; padding-top: 16px;">Average Google Rating is 4.9</p>
+            </div>
+            <div class=" row">
+                <div class="col-md-6">
+                    <div class="left_reviews">
+                        <div class="review_image_1"><img src="img/Ellipse 30.svg" alt="">
+                        </div>
+                        <div class="review_heading_1">Laured Barnett</div>
+                        <div class="review_d">Vienna, VA</div>
+                        <div class="review_p">The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</div>
+                        <div class="p_star">
+                            <img src="img/Vector(1).svg" alt="">
+                            <img src="img/Vector(1).svg" alt="">
+                            <img src="img/Vector(1).svg" alt="">
+                            <img src="img/Vector(1).svg" alt="">
+                            <img src="img/Vector(1).svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right_reviews">
+                        <div class="review_image_1"><img src="img/Ellipse 31.svg" alt="">
+                        </div>
+                        <div class="review_heading_1">Laured Barnett</div>
+                        <div class="review_d">Vienna, VA</div>
+                        <div class="review_p">The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</div>
+                        <div class="p_star">
+                            <img src="img/Vector(1).svg" alt="">
+                            <img src="img/Vector(1).svg" alt="">
+                            <img src="img/Vector(1).svg" alt="">
+                            <img src="img/Vector(1).svg" alt="">
+                            <img src="img/Vector(1).svg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-4 ">
-                <div class="box_main" style="background: #ECFFEC;">
-                    <div class="box_content ">
-                        <h2>Family Concierge Services: Let us do The Legwork</h2>   
-                        <p>We offer local families individual, tailored support to connect them with the local providers they need and want.</p>
+            <div class="review_dot">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+                </svg>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+                </svg>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+                </svg>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+                </svg>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+                </svg>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+                </svg>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+                </svg>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #FFF;">
+        <div class="container">
+            <div class="question_area">
+                <div class="col-md-6">
+                    <div class="left_question_area">
+                        <div class="asked_questions">frequently asked questions</div>
+                        <div class="p_questions">Still have questions? View more FAQs or ask your own question here.</div>
+                        <div class="question_bottom">
+                            <div class="left_question_bottom">Ask Your Question</div>
+                            <div class="right_question_bottom">Check More Questions</div>
+                        </div>
                     </div>
-                    <div class="box_btn box_btn_last">
-                        <button class="btn_cjf fcs"><a href="https://babycito.co/family-concierge" class="btn_text">Learn More</a></button>
-                    </div>
-                    
+                </div>
+                <div class="col-md-6">
+                    <div class="question_all" style="margin-bottom: 16px;">What is babycito?</div>
+                    <div class="question_all" style="margin-bottom: 16px;">How does babycito work?</div>
+                    <div class="question_all" style="margin-bottom: 16px;">What is a babycito service registry?</div>
+                    <div class="question_all" style="margin-bottom: 16px;">How does payment for the registry work?</div>
+                    <div></div>
+                    <div class="question_all" style="margin-bottom: 16px;">Can users review my business on babycito?</div>
+
                 </div>
             </div>
         </div>
-    </div>
-
-</section>
+    </section>
 
 <style>
         
