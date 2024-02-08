@@ -759,4 +759,12 @@
     .btn_phone, .btn_love{
         padding: 10px 12px!important;
       }
+
+      .layout_box_area {
+        width: 100% !important;
+        display: grid !important;
+        grid-template-columns: auto auto !important;
+        padding-top: 30px !important;
+        justify-content: space-between;
+      }
 }
