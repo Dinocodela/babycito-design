@@ -3,29 +3,31 @@
     display: block;
 }   
 
+    .table_area{
+        width: 100%!important;
+    }
+    .td_first {
+        text-align: left;
+    }
+    td.td_first {
+        width: 30%;
+    }
+    td.td_last {
+        width: 70%;
+    }
+
     .banner {
         width: 100%;
-        height: 425px!important;
+        height: 574px !important;
         position: relative;
-    }
-    .banner_area_d{
-        display: none;
+        background: ;
     }
     .banner_area_m{
         display: block;
     }
 
     
-    .title_banner {
-        width: 100%;        
-        position: absolute;
-        right: 0;
-        left: 0;
-        top: 48px!important;
-        margin: auto;
-        
-        
-    }
+    
     .title_banner h1 {
         width: 100%;
         color: #484848;
@@ -47,7 +49,7 @@
         font-weight: 400;
         line-height: 24px; 
         letter-spacing: 0.08px;
-        margin-bottom: 88px;
+        margin-bottom: 30px;
     }
     .title_banner_bg img{
         margin-top: 30px;
@@ -138,7 +140,7 @@
         gap: 10px;
         border-radius: 30px;
         border: 1px solid #3EB589;
-        text-decoration: underline;
+        
     }
 
     .sl {
@@ -202,6 +204,12 @@
     }
     .s_provider{
         text-align: center;
+        padding-bottom: 50px;
+    }
+    .inova_left h2 {
+        font-size: 26px!important;
+        font-weight: 700;
+        line-height: 32px!important;
     }
     .s_provider a h5 {
         color: #343837;
@@ -270,6 +278,13 @@
     .location_icon{
         margin-left: 12px;
     }
+    .btn_pr_area{
+        text-align: center;
+    }
+    .btn_all_cat, .btn_top_cat{
+        padding: 12px 24px;
+        
+    }
 
     /* provider_page_design */
     .icon_area {
@@ -284,14 +299,7 @@
         /* display: inline-block; */
         /* margin: 0 auto; */
     }
-    /* .icon_area {
-        width: 35px;
-        padding-left: 11px;
-        padding-bottom: 10px;
-        position: absolute;
-        left: 0px;
-        bottom: 0;
-    } */
+  
     .sec_providers {
         padding-top: 32px!important;
         padding-bottom: 48px!important;
@@ -327,25 +335,6 @@
         /* margin-bottom: 0px; */
     }
 
-    /* 1/18/24 */
-    /* .dropdown_icon {
-        position: absolute;
-        font-size: 18px;
-        left: 128px!important;
-        bottom: -3px;
-    }
-    .dropbtn {
-        color: #888C8B;
-        font-family: Poppins;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 15px!important;
-        letter-spacing: 0.07px;
-        background: #fff;
-        margin-left: 10px!important;
-        position: relative;
-    } */
     .dropbtn {
         color: #888C8B;
         font-family: Poppins;
@@ -548,10 +537,226 @@
         line-height: 26px!important;
         
     }
-    /* .table_area_d{
-        display: none;
-    } */
-    /* .table_area_m{
+    /* home page css */
+    
+    .baby_title h2 {
+        color: #484848;
+        font-family: Poppins;
+        font-size: 26px!important;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        /* text-transform: lowercase; */
+        text-align: center;
+    }
+    .secbabycito {
+        width: 100%;
+        background: #fff;
+        padding-top: 22px!important;
+        padding-bottom: 32px!important;
+    }
+    .registry_m{
         display: block;
-    } */
+    }
+    .registry_d{
+        display: none;
+    }
+    .baby_p p {
+        
+        margin-bottom: 32px!important;
+    }
+    .right_area_bbst {
+        
+        margin-bottom: 20px!important;
+    }
+    .btn_s, .btn_c{
+        
+        padding: 10px 16px!important;
+    }
+    .btn_f, .btn_j {
+        margin-left: 0px!important;
+        padding: 10px 16px!important;
+    }
+    .left_area_bbst, .right_area_bbst {
+        
+        padding: 10px!important;
+    }
+    .button_area{
+        margin-top: 60px!important;
+        text-align: center;
+        
+    }
+    .button_area_r{
+        margin-top: 90px!important;
+    }
+    .secbabycito_fss {
+        width: 100%;
+        padding-top: 18px!important;
+        padding-bottom: 22px!important;
+    }
+    .title_fssf h2 {
+        font-size: 24px!important;
+        color: #484848;
+        text-align: center;
+        margin-bottom: 18px!important;
+        font-weight: 600;
+    }
+    .s_title_fss {
+        display: inline-block;
+        width: 70%!important;
+        margin-left: 10px;
+    }
+    .list h5 {
+        font-size: 18px;
+        color: #484848;
+        margin-top: 18px!important;
+        margin-bottom: 8px!important;
+    }
+    .box_area {
+        
+        background: #fff;
+        padding: 18px!important;
+        border-radius: 4px;
+        margin: 10px;
+        height: 375px!important;
+    }
+    .secbabycito_fss{
+        background-image: url(.//img/fss_bg_m.png);
+        background-repeat: no-repeat;
+        
+    }
+    .secbabycito_layout{
+        background-image: url(.//img/ly_home_m.png);
+        background-repeat: no-repeat;
+        
+        position: relative;
+    }
+    .secbabycito_1 {
+        padding-top: 32px!important;
+        padding-bottom: 24px!important;
+    }
+    .box_area_wiw{
+        margin-bottom: 15px!important;
+    }
+
+
+    .secbabycito_gift h2 {
+        font-size: 26px!important;
+        color: #484848;
+        font-weight: 600;
+    }
+
+    .left_question_area{
+        width: 100%;
+        padding: 10px!important;
+        margin-bottom: 30px!important;  
+    }
+    .gift_content p {
+        font-size: 16px!important;
+        margin-bottom: 30px!important;
+    }
+    .gift_content span{
+        color: #484848!important;
+        font-weight: 300!important;
+    }
+    .content_gift h2 {
+        font-size: 14px!important;
+        font-weight: 600;
+        text-align: left;
+        margin: 0px;
+    }
+    .secbabycito_gift {
+        padding-top: 32px!important;
+        background: #E1F6EE;
+        text-align: center;
+        padding-bottom: 32px!important;
+    }
+    .recent_blog {
+        padding-top: 32px!important;
+        padding-bottom: 32px!important;
+       
+    }
+    .recent_blog_content_area p {
+        font-size: 16px!important;
+        color: #363837;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .recent_blog_content_area h2 {
+        font-size: 26px!important;
+        color: #484848;
+        font-weight: 600;
+        text-align: center;
+    }
+    .asked_questions h2 {
+        color: #363837;
+        font-family: Poppins;
+        font-size: 22px!important;
+        font-style: normal;
+        font-weight: 500!important;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .p_questions {
+        margin-top: 15px!important;
+        width: 100%;
+        color: #363837;
+        font-family: Poppins;
+        font-size: 15px!important;
+        font-style: normal;
+        font-weight: 500;
+        text-align: center!important;
+        line-height: 22px!important;
+    }
+    .ques_r {
+        background: #FFD6EF;
+        border-color: #535353;
+        color: #343434;
+        margin-left: 0px!important;
+    }
+    .ques_btn{
+        margin-top: 30px!important;
+    }
+    .ques {
+        margin-top: 30px;
+        padding: 10px 16px!important;
+        font-size: 13px!important;
+    }
+    .btn_area_ques{
+        text-align: center;
+        margin-bottom: 15px!important;
+    }
+    .accordion {
+      
+        padding: 10px!important;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 14px!important;
+        transition: 0.4s;
+        margin-bottom: 16px;
+        
+    }
+    .panel p {
+        font-size: 14px!important;
+        margin-top: 10px!important;
+        line-height: 22px!important;
+    }
+    .question_area {
+        padding-top: 32px!important;
+        padding-bottom: 32px!important;
+       
+    }
+
+
+    table td:last-child {
+        border-bottom: 0;
+        padding: 5px;
+        text-align: left;
+    }
+    .btn_phone, .btn_love{
+        padding: 10px 12px!important;
+      }
 }

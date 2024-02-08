@@ -15,8 +15,13 @@
 <link rel="stylesheet" type="text/css" href="https://babycito.co/assets/admin/app-assets/vendors/css/extensions/toastr.css">
 <link rel="stylesheet" type="text/css" href="https://babycito.co/assets/admin/app-assets/css/plugins/extensions/toastr.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css" />
+<link rel="stylesheet" href="css/owl.theme.default.min.css" />
 <link rel="stylesheet" href="custom.css">
 <link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="css/responsive.css">
+
 
 <style>
 .secPagetemp3 .textWrap.photoBlock {
@@ -321,9 +326,7 @@ button.btn.btn-default {
         margin-top: -50px;
         margin-bottom: 50px!important;
     }
-    .secBanner.overlay:before{
-        /* background: #fff; */
-    }
+    
     img.m_img {
         display: none;
     }
@@ -359,9 +362,29 @@ button.btn.btn-default {
 
                 <div class="bg_search_area">
                     <div class="left_section">
-                        <select name="" id="s_cat">
-                            <option value="Select Category" >Select Category</option> 
-                        </select> 
+                        <div class="dropdown">
+                            <a href=""><button class="dropbtn">Select Category 
+                                <i class="fa fa-caret-down dropdown_icon"></i>
+                            </button></a>
+                            <div class="dropdown-content">
+                                <div class="dropdown_cnt_wrapper">
+                                    <a href="#" class="drop_inner"><img src="img/drop_icons/d1.png" alt="">Childcare and Nanny</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d2.png" alt="">Sleep Support</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d3.png" alt="">Community / Groups</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d4.png" alt="">Parent Education</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d5.png" alt="">Fun / Activities</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d6.png" alt="">Family Health and Wellness</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d7.png" alt="">Home Management </a> 
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d1.png" alt="">Childcare and Nanny</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d2.png" alt="">Sleep Support</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d3.png" alt="">Community / Groups</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d4.png" alt="">Parent Education</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d5.png" alt="">Fun / Activities</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d6.png" alt="">Family Health and Wellness</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d7.png" alt="">Home Management </a>  
+                                </div>                            
+                            </div>
+                        </div>
                     </div>
                     <div class="midel_section">
                         <img src="img/svg/line_icon.png" alt="">  
@@ -369,52 +392,25 @@ button.btn.btn-default {
                         <input type="text" placeholder="City, State" class="cst_m">  
                     </div>
                     <div class="right_section">
-                        <button type="submit" class="btn">Search</button> 
+                        <button type="submit" class="btn"><span>Search</span></button> 
                     </div>
                 </div>
                 <div class="s_provider">
-                    <a href=""><h5>Search by Provider Name</h5></a>    
+                    <a href="JavaScript:void(0)"><h5>Search by Provider Name</h5></a>    
                 </div> 
 
                                  
                 </div>
             </div> 
         </div>
-        <div class="banner_area_m">
-            <div class="banner">
-                <div class="title_banner">
-                    <h1><span>trusted</span> family support starts here</h1>
-                    <p>Discover local, trusted providers to meet all your family’s needs and wants</p>
-                   
-                    <div class="bg_search_area_m">
-                        <div class="left_section_m">
-                            <select name="" id="s_cat">
-                                <option value="Select Category" >Select Category</option> 
-                            </select> 
-                        </div>
-                        <div class="midel_section_m">
-                            <img src="img/svg/line_icon.png" alt="">  
-                            <img src="img/svg/map_icon.png" alt="" class="location_icon">  
-                            <input type="text" placeholder="City, State" class="cst_m">  
-                        </div>
-                        <div class="right_section_m">
-                            <button type="submit" class="btn_m"><i class="fa fa-search search_icon"></i></button> 
-                        </div>
-                    </div> 
-                    <div class="s_provider">
-                        <a href=""><h5>Search by Provider Name</h5></a>    
-                    </div>          
-                </div>
-                
-            </div> 
-        </div>
+
         
         
     </div>
 </section>
 
 <style>
-    .secbabycito_layout{
+    .secbabycito_layout_d{
             width: 100%;
             height: 350px;
         }
@@ -448,7 +444,7 @@ button.btn.btn-default {
 
 
     
-<section class="secbabycito_layout" style="background-image: url('img/ly2.png'); background-size: 100% 100%;" >
+<section class="secbabycito_layout"  >
     <div class="container">
         <div class="layout_box_area">
             <div class="layout_box">
@@ -515,7 +511,7 @@ button.btn.btn-default {
             line-height: 22px;
             letter-spacing: 0.075px; 
         }
-        .heading_3{
+        .heading_3 h2{
             text-align: center;
             color: #484848;
             font-family: Poppins;
@@ -548,29 +544,21 @@ button.btn.btn-default {
             background: #8BDEBF;
         }
        
-        .left_area_1{
-            width: 356px;
+        .box_area_wiw{
+            width: 100%;
             height: 172px;
             flex-shrink: 0;
             border-radius: 8px;
             background: #FFD6EF;
             margin: 0 auto;
         }
-        .middle_area_1{
-            width: 356px;
-            height: 172px;
-            flex-shrink: 0;
-            border-radius: 8px;
+        .middle_area{
             background: #FFEB68;
-            margin: 0 auto;
+            
         }
-        .right_area_1{
-            width: 356px;
-            height: 172px;
-            flex-shrink: 0;
-            border-radius: 8px;
+        .right_area{
             background: #8BDEBF;
-            margin: 0 auto;
+            
         }
         .left_area_2{
             width: 356px;
@@ -619,7 +607,7 @@ button.btn.btn-default {
             text-align: center;
         }
         .baby_p p{
-            width:477px ;
+            width:100% ;
             text-align: center;
             margin: 0 auto;
             
@@ -633,7 +621,7 @@ button.btn.btn-default {
             font-weight: 400;
             line-height: 22px;
             letter-spacing: 0.075px;
-            width: 477px;
+            
             margin-bottom: 85px;
             
         }
@@ -665,18 +653,7 @@ button.btn.btn-default {
             padding-top: 40px;
             padding-bottom: 20px;
         }
-        .p_1{
-            padding-left: 34px;
-            color: #363837;
-            font-family: Poppins;
-            font-size: 22px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 32px;
-            letter-spacing: 0.11px;
-            width: 365px;
-            height: 96px;
-        }
+        
         .p_2{
             padding-left: 34px;
             color: #363837;
@@ -688,6 +665,11 @@ button.btn.btn-default {
             letter-spacing: 0.11px;
             width: 365px;
             height: 128px;
+        }
+        
+        .button_area{
+            margin-top: 42px;
+            vertical-align: text-bottom;
         }
 
         .button_area_left{
@@ -765,7 +747,8 @@ button.btn.btn-default {
             margin-top: 8px;
             margin-bottom: 8px;
             background-color: white;
-        }         
+        }  
+             
         .left1{
             display: flex;
             gap: 20px;
@@ -798,7 +781,7 @@ button.btn.btn-default {
             height: 197px;
             flex-shrink: 0;
             border-radius: 8px 8px 0px 0px;
-            background: url(<path-to-image>), lightgray 50% / cover no-repeat, #D9D9D9;
+            
         }
         .blog_heading{
             padding-left: 16px;
@@ -810,32 +793,9 @@ button.btn.btn-default {
             font-weight: 600;
             line-height: 32px;
         }
-        .blog_p p{
-            width: 325px;
-            padding-left: 16px;
-            padding-top: 16px;
-            margin-bottom: 0pximportant;
-            color: #717473;
-            font-family: Poppins;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 24px;
-        }
-        .blog_p_m{
-            padding-left: 16px;
-            color: #3EB589;
-            font-family: Poppins;
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 15px;
-        }
-        .blog_svg{
-            display: flex;
-            gap: 1px;
-            padding-top: 27px;
-        }
+      
+        
+        
         .blog_vgs_all{
            
             fill: #3EB589;
@@ -948,42 +908,29 @@ button.btn.btn-default {
             
         }
         .left_question_area{
-            width: 518px;
-            height: 250px;
-            margin-left: 90px;
-            flex-shrink: 0;
+            width: 100%;
+            padding: 32px;
+
             border-radius: 8px;
             background: #FFD6EF;
         }
-        .question_all{
-            width: 546px;
-            height: 54px;
-            flex-shrink: 0;
-            border-radius: 8px;
-            background: #F0F8F5;
-            color: #535353;
-            font-family: Poppins;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 18px;
-            padding-top: 18px;
-            padding-left: 16px;
-        }
+       
         .asked_questions{
+            
+            
+        }
+        .asked_questions h2{
             color: #363837;
             font-family: Poppins;
             font-size: 32px;
             font-style: normal;
             font-weight: 600;
             line-height: 32px;
-            padding-top: 32px;
-            padding-left: 32px;
+            
         }
         .p_questions{
-            padding-top: 30px;
-            padding-left: 32px;
-            width: 437px;
+            margin-top: 30px;
+            width: 100%;
             color: #363837;
             font-family: Poppins;
             font-size: 18px;
@@ -1026,16 +973,18 @@ button.btn.btn-default {
 
 
 
-    <style>
+    <style >
 
         
       
-        .left_area_bbst{
+        .left_area_bbst, .right_area_bbst{
             width: 100%;
             height: 344px;
             flex-shrink: 0;
             border-radius: 8px;
             background: #8BDEBF;
+            padding: 40px;
+            
         }
         .baby_sub_title h5{
             color: #343434;
@@ -1043,24 +992,23 @@ button.btn.btn-default {
             font-size: 28px;
             font-style: normal;
             font-weight: 600;
-            line-height: 32px;
-            padding-left: 34px;
-            padding-top: 40px;
-            padding-bottom: 20px;
+            line-height: 32px;          
+            margin: 0;
         }   
-        .button_area{
-            margin-top: 50px;
-            padding-left: 34px;
-        } 
+         
         .btn_s, .btn_c{
             background: #fff;
             color: #343434;
             border: none;
         }
         .btn_s:hover{
-            background: #8BDEBF;
-            border: 1px solid #fff;
-           
+            background: #83d0b4;
+            border: 1px solid #343434;  
+        }
+        .btn_c:hover{
+            background: #eddc6e;
+            color: #343434;
+            border: 1px solid #484848;
         }
         
         .btn_j{
@@ -1069,11 +1017,24 @@ button.btn.btn-default {
             border: 1px solid #484848;
             margin-left: 10px;
         }
+        .btn_j:hover{
+            background: #83d0b4;
+            color: #343434;
+            border: 1px solid #484848;
+            margin-left: 10px;
+        }
+        
         .btn_f{
             background: #FFEB68;
             color: #343434;
             border: 1px solid #484848;
             margin-left: 10px;
+        }
+        .btn_f:hover{
+            background: #eddc6e;
+            color: #343434;
+            border: 1px solid #484848;
+            
         }
         
         .right_area_bbst{
@@ -1082,10 +1043,28 @@ button.btn.btn-default {
             flex-shrink: 0;
             border-radius: 8px;
             background: #FFEB68;
+            margin-bottom: 0px;
         
         }
+        .content_bbst p{
+            color: #363837;
+            font-family: Poppins;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0.11px;
+            width: 100%;
+            margin-top: 35px;
+            
+        }
+        .button_area_r{
+            margin-top: 75px;
+        }
     </style>
-<section class="secbabycito">
+
+
+<section class="secbabycito ">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -1095,25 +1074,43 @@ button.btn.btn-default {
                 <div class="baby_p"><p>Northern Virginia’s one-stop shop for family services, supporting parents and children (0-12)</p></div>   
             </div>   
         </div>
+        
         <div class="row">
+            <div class="col-md-6 registry_m">
+                <div class="right_area_bbst" style="background-image: url(img/rec11.5.png);background-repeat: no-repeat; background-position: right bottom;">
+                    <div class="baby_sub_title">
+                        <h5>Registry</h5>
+                    </div>
+                    <div class="content_bbst">
+                        <p>Create a cash fund registry for family support services. Find a registry for a friend or family member.</p>
+                    </div>
+                    <div class="button_area ">
+                        <a href=""><button class="btn btn_c">Create a Registry</button></a>
+                        <a href="#"><button class="btn btn_f">Find a Registry</button></a>
+                        
+                        
+                    </div>
+                </div>
+            </div>  
             <div class="col-md-6">
                 <div class="left_area_bbst" style="background-image: url(img/rec11.png);
                 background-repeat: no-repeat; background-position: right bottom;">
                     <div class="baby_sub_title">
                         <h5>Providers</h5>
                     </div>
-                    <div class="p_1">Search our carefully curated directory of trusted, local providers.
+                    <div class="content_bbst">
+                        <p>Search our carefully curated directory of trusted, local providers.</p>
                     </div>
-                    <div class="button_area">
-                        <button class="btn btn_s">Search Providers</button>
-                        <button class="btn btn_j">Join as a Provider</button>
+                    <div class="button_area button_area_r">
+                        <a href="#"><button class="btn btn_s">Search Providers</button></a>
+                        <a href="#"><button class="btn btn_j">Join as a Provider</button></a> 
                     </div>
                 </div>
             </div>    
-            <div class="col-md-6">
+            <div class="col-md-6 registry_d">
                 <div class="right_area_bbst" style="background-image: url(img/rec11.5.png);background-repeat: no-repeat; background-position: right bottom;">
-                    <div class="h5_2">Registry</div>
-                    <div class="p_2">Create a cash fund registry for family support services. Find a registry for a friend or family member.
+                    <div class="baby_sub_title"><h5>Registry</h5></div>
+                    <div class="content_bbst"><p>Create a cash fund registry for family support services. Find a registry for a friend or family member.</p>
                     </div>
                     <div class="button_area">
                         <button class="btn btn_c">Create a Registry</button>
@@ -1165,7 +1162,7 @@ button.btn.btn-default {
         margin-bottom: 20px;
     }
     .box_area{
-        width: 100%;
+        
         background: #fff;
         padding: 25px;
         border-radius: 4px;
@@ -1191,7 +1188,7 @@ button.btn.btn-default {
    
     
 </style>
-<section class="secbabycito_fss" style="background-image: url(img/fss_bg.png); background-repeat: no-repeat; background-size: 100% 100%;">
+<section class="secbabycito_fss">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -1204,12 +1201,12 @@ button.btn.btn-default {
             <div class="col-md-4">
                 <div class="box_area">
                     <div class="inner">
-                    <div class="icon_fss">
-                        <img src="img/fss1.png" alt="">  
-                    </div>
-                    <div class="s_title_fss">
-                        <h3>For Tiny (0 -2)</h3>    
-                    </div>
+                        <div class="icon_fss">
+                            <img src="img/fss1.png" alt="">  
+                        </div>
+                        <div class="s_title_fss">
+                            <h3>For Tiny (0 -2)</h3>    
+                        </div>
                     </div>
                     <div class="list">
                         <h5>Key services at this stage:</h5>
@@ -1285,24 +1282,27 @@ button.btn.btn-default {
         </div>
         <div class="row">
             <div class="col-md-4">
-                <div class="left_area_1">
+                <div class="box_area_wiw">
                     <div class="left1">
+                        <img src="img/work.png" alt="">
                         <button class="button_5"><b>01</b></button>
                         <div style="font-size: 15px;"><b>Learn about services and search for the support you need</b></div>
                     </div> 
                 </div>
             </div>    
             <div class="col-md-4">
-                <div class="middle_area_1">
-                    <div class="middle1">
+                <div class="box_area_wiw middle_area">
+                    <div class="middle1 " >
+                        <img src="img/work.png" alt="">
                         <button class="button_6"><b>02</b></button>
                         <div style="font-size: 15px;"><b>Connect with providers and/or add services to your babycito service registry</b></div>
                     </div>
                 </div>
             </div>    
             <div class="col-md-4">
-                <div class="right_area_1">
+                <div class="box_area_wiw right_area">
                     <div class="right1">
+                        
                         <button class="button_7"><b>03</b></button>
                         <div style="font-size: 15px;"><b>Get the support you need and want for your growing family! </b></div>
                     </div>
@@ -1318,40 +1318,534 @@ button.btn.btn-default {
         padding-top: 100px;
         background: #E1F6EE;
         text-align: center;
+        padding-bottom: 100px;
+        
     }
     .secbabycito_gift h2{
-        font-size: 43px;
+        font-size: 47px;
         color: #484848;
+        font-weight: 600;
+        
     }
+
+
+   
     .gift_title span{
         font-style: italic;
     }
     .gift_content p{
         font-size: 18px;
+        margin-bottom: 70px;
     }
     .gift_content span{
         color: black;
         font-weight: 600;
     }
+    .box_gift{
+        
+        background: #fff;
+    }
+    .gift_icon{        
+        display: inline-block; 
+   
+    }
+    .box_content{
+        display: inline-block;
+    }
+    .box_content h3{
+        font-size: 18px;
+        color: #484848;
+        width: 110px;
+        margin-bottom: 0px;
+       
+    }
+    .box_content h5 {
+        font-size: 18px;
+        color: #8C8C8C;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .content_gift h5 span{
+        font-size: 18px;
+        color: #3DB488;
+        font-weight: 600;
+
+    }
+
+    .box_area_gift{
+        background: #3DB488;
+        border-radius: 8px;
+    }
+
+
+
+    .box_content_area{
+        padding: 10px;
+        width: 100%;
+        background: #8BDEBF;
+        border-radius: 8px;
+    }
+    .box_content_icon{
+        margin: 10px;
+        background: #fff;
+        height: 70px;
+        border-radius: 4px;
+       
+        
+    }
+    .icon_gift{
+        display: inline-block;
+        width: 65px;
+        float: left;
+        padding: 8px;
+ 
+    }
+    
+    .content_gift{
+        display: inline-block;
+        float: left!important;
+        margin-top: 4px;
+        width: 75%;
+    }
+
+    .content_gift h2 {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: left;
+        margin: 0px;
+    }
+    .content_gift h5 {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: left;
+        margin: 0px;
+        padding-bottom: 7px;
+    }
+    .box_content_area_midil{
+        background: #FFD6EF;
+    }
+    .box_content_area_right{
+        background: #FFEB68;
+    }
+    .gift_content_last h3{
+        font-size: 22px;
+        color: #363837;
+        font-weight: 600;
+    }
+    .gift_content_last p{
+        font-size: 16px;
+        line-height: 22px;
+        
+    }
+    .gift_btn_area{
+        margin-top: 50px;
+    }
+    .gift_btn{
+        background: #FFEB68;
+        color: #343434;
+        font-weight: 600;
+        border: none;
+    }
+    .gift_btn:hover{
+        background: #eddc6e;
+        border: none;
+    }
+   
+    
+  
+
+    
 </style>
-<section class="secbabycito_gift d-none">
+<section class="secbabycito_gift">
     <div class="container">
         <div class="gift_title">
             <h2>gift more <span>memories,</span> fewer things</h2>    
         </div>
         <div class="gift_content">
-            <p>Our<span>babycito service registry</span> makes it easy to request and receive 
+            <p>Our <span>babycito service registry</span> makes it easy to request and receive 
             gifts of services, activities and/or experiences.</p>
+        </div>
+        <div class="box_wrapper">
+            <div class="box_content_area">
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #3DB488; height:5px; width:50%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                        
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #3DB488; height:5px; width:40%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #3DB488; height:5px; width:90%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #3DB488; height:5px; width:70%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #3DB488; height:5px; width:60%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="gift_content_last">
+                        <h3>Baby Shower</h3>  
+                        <p>Request helpful prenatal services and postpartum support</p>  
+                    </div>   
+                </div>    
+                <div class="box_content_area box_content_area_midil">
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #B261D9; height:5px; width:50%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #B261D9; height:5px; width:30%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #B261D9; height:5px; width:70%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #B261D9; height:5px; width:20%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #B261D9; height:5px; width:60%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="gift_content_last">
+                        <h3>Birthday Registry</h3>  
+                        <p>Avoid the overwhelm of physical gifts.  Register your child for experiences!</p>  
+                    </div>   
+                </div>     
+                <div class="box_content_area box_content_area_right">
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #ECD124; height:5px; width:50%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #ECD124; height:5px; width:30%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #ECD124; height:5px; width:70%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #ECD124; height:5px; width:20%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                    <div class="box_content_icon">
+                        <div class="icon_gift">
+                            <img src="img/gift1.png" alt="">    
+                        </div> 
+                        <div class="content_gift">
+                            <h2>Birth Doula</h2>
+                            <h5><span>1 at $1500</span> $750 Remaining</h5>
+                            <div class="Progress_bar" style="width: 100%;">
+                                <div class="w3-light-red" style="background-color: #D9D9D9;">
+                                    <div id="myBar" class="w3-container " style="
+                                    background-color: #ECD124; height:5px; width:60%"></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="gift_content_last">
+                        <h3>Holiday Registry</h3>  
+                        <p>Ditch the clutter that comes with the season of giving. Register for activities!</p>  
+                    </div>   
+                </div> 
+        </div>
+            <div class="gift_btn_area">
+                <a href="#"><button class="btn gift_btn">Get Started</button></a>
+                   
+            </div>    
+
+        
+            
+               
         </div>
     </div>    
 </section>
 <style>
+    .blog_p_m{
+        
+        padding-left: 16px;
+        color: #3EB589;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        cursor: pointer;
+    }
+    .blog_p_m span{
+        margin-left: 8px;
+        
+    }
+    .blog_p p {
+    padding-left: 16px;
+    color: #717473;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+    .recent_blog{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: #F9FCFA;
+    }
+    .recent_blog_content_area {
+        margin-bottom: 50px;
+    }
+    .recent_blog_content_area h2{
+        font-size: 43px;
+        color: #484848 ;
+        font-weight: 600;
+        text-align: center;
+        
 
+    }
+    .recent_blog_content_area p{
+        font-size: 15px;
+        color: #363837 ;
+        text-align: center;
+        
+
+    }
+    .box_area_rbs{
+        width: 100%;
+        flex-shrink: 0;
+        border-radius: 9px;
+        border: 1px solid #DDEBE6;
+        background: #FFF;
+        margin: 0 auto;
+    }
+    .blog_icon img{
+        width: 100%;
+    }
+    .read_more_area{
+        margin-bottom: 25px;
+    }
     
     
 </style>
 
-<section class="works_1">
+
+
+<section class="recent_blog">
+    <div class="container">
+
+        <div class="recent_blog_content_area">
+            <h2>recent blogs</h2>
+            <p>Get the latest on NOVA activities and events, parenting tips, local resources, and more!</p>
+        </div>
+      
+        <div class="blog_wrapper">
+            <div class="box_area_rbs">
+                    <div class="blog_icon">
+                        <img src="img/blog_img_1.png" alt="">
+                    </div>
+                    <div class="blog_heading">
+                        Holiday Traditions - Ways to Start Your Own!
+                    </div>
+                    <div class="blog_p"><p>This article was written and contribute by Lindsey Hollaar, Mama’</p>
+                    </div>
+                    <div class="read_more_area">
+                        <a href=""><div class="blog_p_m">READ MORE <span>&rarr;</span></div></a>
+                    </div>
+                </div>   
+                <div class="box_area_rbs">
+                    <div class="blog_icon">
+                        <img src="img/blog_img_2.png" alt="">
+                    </div>
+                    <div class="blog_heading">
+                        Holiday Traditions - Ways to Start Your Own!
+                    </div>
+                    <div class="blog_p"><p>This article was written and contribute by Lindsey Hollaar, Mama’</p>
+                    </div>
+                    <div class="read_more_area">
+                        <a href=""><div class="blog_p_m">READ MORE <span>&rarr;</span></div></a>
+                    </div>
+                    
+                </div>   
+                <div class="box_area_rbs">
+                    <div class="blog_icon">
+                        <img src="img/blog_img_3.png" alt="">
+                    </div>
+                    <div class="blog_heading">
+                        Holiday Traditions - Ways to Start Your Own!
+                    </div>
+                    <div class="blog_p"><p>This article was written and contribute by Lindsey Hollaar, Mama’</p>
+                    </div>
+                    <div class="read_more_area">
+                        <a href=""><div class="blog_p_m">READ MORE <span>&rarr;</span></div></a>
+                    </div>
+                </div>    
+        </div>
+    </div>
+</section>
+<section class="works_1 d-none">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -1361,177 +1855,437 @@ button.btn.btn-default {
                 <div class="baby_w"><p>Get the latest on NOVA activities and events, parenting tips, local resources, and more!</p></div>   
             </div>    
         </div> 
-        <div class="row" style=" padding-top: 87px; padding-bottom: 120px;">
-            <div class="col-md-4">
-                <div class="left_area_2">
-                    <div class="blog_1">
-                        <img src="img/blog_img_2.png" alt="">
-                    </div>
-                    <div class="blog_heading">
-                        Holiday Traditions - Ways to Start Your Own!
-                    </div>
-                    <div class="blog_p"><p style="margin-bottom: 0px;">This article was written and contribute by Lindsey Hollaar, Mama’</p>
-                    </div>
-
-                    
-                    <div class="blog_svg">
-                        <div class="blog_p_m">READ MORE &rarr;</div>
-                        <div class="blog_vgs_all">
-                            
-                        </div>
-                    </div> 
-                </div>
-            </div>    
+        <div class="row">
+              
             <div class="col-md-4">
                 <div class="middle_area_2">
-                    <div class="blog_1">
-                        <img src="img/blog_img_3.png" alt="">
-                    </div>
-                    <div class="blog_heading">
-                        Holiday Traditions - Ways to Start Your Own!
-                    </div>
-                    <div class="blog_p"><p style="margin-bottom: 0px;">This article was written and contribute by Lindsey Hollaar, Mama’</p>
-                    </div>
-                    <div class="blog_svg">
-                        <div class="blog_p_m">READ MORE &rarr;</div>
-                        <div class="blog_vgs_all">
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>    
-            <div class="col-md-4">
-                <div class="right_area_2">
                     <div class="blog_1">
                         <img src="img/blog_img_1.png" alt="">
                     </div>
                     <div class="blog_heading">
                         Holiday Traditions - Ways to Start Your Own!
                     </div>
-                    <div class="blog_p"><p style="margin-bottom: 0px;">This article was written and contribute by Lindsey Hollaar, Mama’</p>
+                    <div class="blog_p"><p>This article was written and contribute by Lindsey Hollaar, Mama’</p>
                     </div>
-                    <div class="blog_svg">
-                        <div class="blog_p_m">READ MORE<span style="font-weight: 600;
-                            margin-left:px;">&rarr;</span></div>
-                        <div class="blog_vgs_all">
-                            
-                        </div>
+                    <a href=""><div class="blog_p_m">READ MORE <span>&rarr;</span></div></a>
+                </div>
+            </div>    
+            <div class="col-md-4">
+                <div class="middle_area_2">
+                    <div class="blog_1">
+                        <img src="img/blog_img_2.png" alt="">
                     </div>
+                    <div class="blog_heading">
+                        Holiday Traditions - Ways to Start Your Own!
+                    </div>
+                    <div class="blog_p"><p>This article was written and contribute by Lindsey Hollaar, Mama’</p>
+                    </div>
+                    <a href=""><div class="blog_p_m">READ MORE <span>&rarr;</span></div></a>
+                </div>
+            </div>    
+            <div class="col-md-4">
+                <div class="right_area_2">
+                    <div class="blog_1">
+                        <img src="img/blog_img_3.png" alt="">
+                    </div>
+                    <div class="blog_heading">
+                        Holiday Traditions - Ways to Start Your Own!
+                    </div>
+                    <div class="blog_p"><p>This article was written and contribute by Lindsey Hollaar, Mama’</p>
+                    </div>
+                    <a href=""><div class="blog_p_m">READ MORE <span>&rarr;</span></div></a>
                 </div>
             </div>    
         </div>
     </div>
 </section>
-    <section class="reviews">
+<section class="reviews d-none">
+    <div class="container">
+            <div class="heading_4">Our Providers Have Earned Over 2,000+  5-star Reviews on Google!</div>
+        <div class="star_box">
+            <div class="star_5">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
+                </svg>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
+                </svg>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
+                </svg>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
+                </svg>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
+                </svg>
+            </div>
+            <p style="font-size: 22px; padding-top: 16px;">Average Google Rating is 4.9</p>
+        </div>
+        <div class=" row">
+            <div class="col-md-6">
+                <div class="left_reviews">
+                    <div class="review_image_1"><img src="img/Ellipse 30.svg" alt="">
+                    </div>
+                    <div class="review_heading_1">Laured Barnett</div>
+                    <div class="review_d">Vienna, VA</div>
+                    <div class="review_p">The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</div>
+                    <div class="p_star">
+                        <img src="img/Vector(1).svg" alt="">
+                        <img src="img/Vector(1).svg" alt="">
+                        <img src="img/Vector(1).svg" alt="">
+                        <img src="img/Vector(1).svg" alt="">
+                        <img src="img/Vector(1).svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right_reviews">
+                    <div class="review_image_1"><img src="img/Ellipse 31.svg" alt="">
+                    </div>
+                    <div class="review_heading_1">Laured Barnett</div>
+                    <div class="review_d">Vienna, VA</div>
+                    <div class="review_p">The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</div>
+                    <div class="p_star">
+                        <img src="img/Vector(1).svg" alt="">
+                        <img src="img/Vector(1).svg" alt="">
+                        <img src="img/Vector(1).svg" alt="">
+                        <img src="img/Vector(1).svg" alt="">
+                        <img src="img/Vector(1).svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="review_dot">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+            </svg>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+            </svg>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+            </svg>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+            </svg>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+            </svg>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+            </svg>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+            </svg>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="6" cy="6" r="6" fill="#3EB589"/>
+            </svg>
+        </div>
+    </div>
+</section>
+
+
+    <style>
+                .accordion {
+            background-color: #F0F8F5;
+            color: #444;
+            /* cursor: pointer; */
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 8px;
+        }
+        .accordion span{
+            float: right;
+            font-size: 18px;
+        }
+        
+
+      
+        .active, .accordion:hover {
+            background-color: #8BDEBF; 
+           
+            
+            }
+            
+
+            .panel {
+                padding: 0 18px;
+                display: none;
+                background-color: #8BDEBF;
+                overflow: hidden;
+                border-radius: 8px;
+            }   
+            .panel p {
+                font-size: 18px;
+                margin-top: 10px;
+                line-height: 30px;
+            }
+            
+            .ques_l{
+                background: #fff;
+                border: none;
+                color: #484848;
+            }
+            .ques_l:hover{
+                background: #f3f3f3;
+                border: none;
+                color: #484848;
+            }
+            .ques_r{
+                background: #FFD6EF;
+                border-color: #535353;
+                color: #343434;
+                margin-left: 10px;
+            }
+            .ques_r:hover{
+                background: #f2d0e5 ;
+            }
+            .ques{
+                margin-top: 30px;
+                padding: 10px 16px;
+            }
+
+
+    
+    </style>
+
+    <section id="testimonail">
         <div class="container">
-                <div class="heading_4">Our Providers Have Earned Over 2,000+  5-star Reviews on Google!</div>
-            <div class="star_box">
-                <div class="star_5">
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
-                    </svg>
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
-                    </svg>
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
-                    </svg>
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
-                    </svg>
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.88038 9.05703L1.16933 10.3789L1.01504 10.4117C0.781479 10.4766 0.568558 10.6052 0.398019 10.7844C0.227481 10.9636 0.105436 11.187 0.0443477 11.4317C-0.0167407 11.6764 -0.0146838 11.9336 0.0503082 12.1772C0.1153 12.4208 0.240899 12.642 0.414278 12.8182L6.72501 19.2473L5.23676 28.3287L5.21901 28.4859C5.20471 28.7387 5.25487 28.9909 5.36435 29.2168C5.47383 29.4427 5.6387 29.634 5.84208 29.7713C6.04545 29.9085 6.28002 29.9867 6.52177 29.9979C6.76353 30.0091 7.00377 29.9528 7.21791 29.8348L15.0087 25.5478L22.7817 29.8348L22.9183 29.9006C23.1437 29.9935 23.3886 30.022 23.6279 29.9831C23.8673 29.9443 24.0925 29.8395 24.2804 29.6795C24.4683 29.5195 24.6121 29.31 24.6971 29.0727C24.7822 28.8353 24.8053 28.5785 24.7643 28.3287L23.2746 19.2473L29.5881 12.8168L29.6946 12.6953C29.8467 12.4992 29.9465 12.2644 29.9837 12.0148C30.0209 11.7652 29.9942 11.5097 29.9064 11.2745C29.8185 11.0392 29.6727 10.8325 29.4836 10.6754C29.2946 10.5183 29.0692 10.4165 28.8303 10.3803L20.1193 9.05703L16.2252 0.797344C16.1126 0.558034 15.9381 0.356516 15.7217 0.2156C15.5052 0.0746849 15.2554 0 15.0005 0C14.7456 0 14.4958 0.0746849 14.2793 0.2156C14.0629 0.356516 13.8885 0.558034 13.7758 0.797344L9.88038 9.05703Z" fill="#3EB589"/>
-                    </svg>
+            <div class="testimonail-wrapper">
+                <div class="testimonail-heading">
+                    <h2>Our Providers Have Earned Over 2,000+  5-star Reviews on Google!</h2>
+                    <ul>
+                        <li><img src="img/star.svg" alt=""></li>
+                        <li><img src="img/star.svg" alt=""></li>
+                        <li><img src="img/star.svg" alt=""></li>
+                        <li><img src="img/star.svg" alt=""></li>
+                        <li><img src="img/star.svg" alt=""></li>
+                    </ul>
+                    <h3>Average Google Rating is 4.9</h3>
                 </div>
-                <p style="font-size: 22px; padding-top: 16px;">Average Google Rating is 4.9</p>
-            </div>
-            <div class=" row">
-                <div class="col-md-6">
-                    <div class="left_reviews">
-                        <div class="review_image_1"><img src="img/Ellipse 30.svg" alt="">
+                <div class="slider_testi">
+                    <div class="owl-carousel products-slider">
+                    <div class="testi_slider">
+                        <div class="testi_slider_heading">
+                            <div class="testi_slider_img">
+                                <img src="img/man1.png" alt="">
+                            </div>
+                            <h4>Laured Barnett</h4>
+                            <p>Vienna, VA</p>
                         </div>
-                        <div class="review_heading_1">Laured Barnett</div>
-                        <div class="review_d">Vienna, VA</div>
-                        <div class="review_p">The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</div>
-                        <div class="p_star">
-                            <img src="img/Vector(1).svg" alt="">
-                            <img src="img/Vector(1).svg" alt="">
-                            <img src="img/Vector(1).svg" alt="">
-                            <img src="img/Vector(1).svg" alt="">
-                            <img src="img/Vector(1).svg" alt="">
+                        <div class="testi_slider_para">
+                            <p><em>The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</em></p>
+                            <ul>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="right_reviews">
-                        <div class="review_image_1"><img src="img/Ellipse 31.svg" alt="">
+                    <div class="testi_slider">
+                        <div class="testi_slider_heading">
+                            <div class="testi_slider_img">
+                                <img src="img/man2.png" alt="">
+                            </div>
+                            <h4>Laured Barnett</h4>
+                            <p>Vienna, VA</p>
                         </div>
-                        <div class="review_heading_1">Laured Barnett</div>
-                        <div class="review_d">Vienna, VA</div>
-                        <div class="review_p">The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</div>
-                        <div class="p_star">
-                            <img src="img/Vector(1).svg" alt="">
-                            <img src="img/Vector(1).svg" alt="">
-                            <img src="img/Vector(1).svg" alt="">
-                            <img src="img/Vector(1).svg" alt="">
-                            <img src="img/Vector(1).svg" alt="">
+                        <div class="testi_slider_para">
+                            <p><em>The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</em></p>
+                            <ul>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                            </ul>
                         </div>
                     </div>
+                    <div class="testi_slider">
+                        <div class="testi_slider_heading">
+                            <div class="testi_slider_img">
+                                <img src="img/man1.png" alt="">
+                            </div>
+                            <h4>Laured Barnett</h4>
+                            <p>Vienna, VA</p>
+                        </div>
+                        <div class="testi_slider_para">
+                            <p><em>The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</em></p>
+                            <ul>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="testi_slider">
+                        <div class="testi_slider_heading">
+                            <div class="testi_slider_img">
+                                <img src="img/man2.png" alt="">
+                            </div>
+                            <h4>Laured Barnett</h4>
+                            <p>Vienna, VA</p>
+                        </div>
+                        <div class="testi_slider_para">
+                            <p><em>The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</em></p>
+                            <ul>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="testi_slider">
+                        <div class="testi_slider_heading">
+                            <div class="testi_slider_img">
+                                <img src="img/man1.png" alt="">
+                            </div>
+                            <h4>Laured Barnett</h4>
+                            <p>Vienna, VA</p>
+                        </div>
+                        <div class="testi_slider_para">
+                            <p><em>The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</em></p>
+                            <ul>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="testi_slider">
+                        <div class="testi_slider_heading">
+                            <div class="testi_slider_img">
+                                <img src="img/man2.png" alt="">
+                            </div>
+                            <h4>Laured Barnett</h4>
+                            <p>Vienna, VA</p>
+                        </div>
+                        <div class="testi_slider_para">
+                            <p><em>The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</em></p>
+                            <ul>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="testi_slider">
+                        <div class="testi_slider_heading">
+                            <div class="testi_slider_img">
+                                <img src="img/man1.png" alt="">
+                            </div>
+                            <h4>Laured Barnett</h4>
+                            <p>Vienna, VA</p>
+                        </div>
+                        <div class="testi_slider_para">
+                            <p><em>The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</em></p>
+                            <ul>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="testi_slider">
+                        <div class="testi_slider_heading">
+                            <div class="testi_slider_img">
+                                <img src="img/man2.png" alt="">
+                            </div>
+                            <h4>Laured Barnett</h4>
+                            <p>Vienna, VA</p>
+                        </div>
+                        <div class="testi_slider_para">
+                            <p><em>The babycito team helped me create an instant network in navigating the childcare process. They were insightful, had wonderful provider connections, and truly rallied behind me and my family in a stressful time!</em></p>
+                            <ul>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                                <li><img src="img/star.svg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
                 </div>
-            </div>
-            <div class="review_dot">
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
-                </svg>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
-                </svg>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
-                </svg>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
-                </svg>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
-                </svg>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
-                </svg>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
-                </svg>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="6" cy="6" r="6" fill="#3EB589"/>
-                </svg>
+                
             </div>
         </div>
     </section>
     <section style="background-color: #FFF;">
         <div class="container">
             <div class="question_area">
-                <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
                     <div class="left_question_area">
-                        <div class="asked_questions">frequently asked questions</div>
+                        <div class="asked_questions"><h2>frequently asked questions</h2></div>
                         <div class="p_questions">Still have questions? View more FAQs or ask your own question here.</div>
-                        <div class="question_bottom">
-                            <div class="left_question_bottom">Ask Your Question</div>
-                            <div class="right_question_bottom">Check More Questions</div>
+                        
+                        <div class="btn_area_ques">
+                            <a href="#"><button class="btn ques ques_l">Ask Your Question</button></a>
+                            <a href="#"><button class="btn ques ques_r">Check More Questions</button></a>
+                                
+                                
                         </div>
+                       
                     </div>
                 </div>
+              
                 <div class="col-md-6">
-                    <div class="question_all" style="margin-bottom: 16px;">What is babycito?</div>
-                    <div class="question_all" style="margin-bottom: 16px;">How does babycito work?</div>
-                    <div class="question_all" style="margin-bottom: 16px;">What is a babycito service registry?</div>
-                    <div class="question_all" style="margin-bottom: 16px;">How does payment for the registry work?</div>
-                    <div></div>
-                    <div class="question_all" style="margin-bottom: 16px;">Can users review my business on babycito?</div>
+                    <button class="accordion">What is babycito? <span></span></button>
+                    <div class="panel">
+                        <p>Payment for our cash fund registry is safe and secure thanks to our Stripe integration. You will connect your bank account via Stripe. The money is held until the last day of each month, when any available funds are paid out directly to the account you connected.</p>
+                    </div>
+                    <button class="accordion">How does babycito work? <span></span></button>
+                        <div class="panel">
+                        <p>Payment for our cash fund registry is safe and secure thanks to our Stripe integration. You will connect your bank account via Stripe. The money is held until the last day of each month, when any available funds are paid out directly to the account you connected.</p>
+                        </div>
 
+                        <button class="accordion">What is a babycito service registry? <span></span></button>
+                        <div class="panel">
+                        <p>Payment for our cash fund registry is safe and secure thanks to our Stripe integration. You will connect your bank account via Stripe. The money is held until the last day of each month, when any available funds are paid out directly to the account you connected.</p>
+                        </div>
+                        <button class="accordion">How does payment for the registry work? <span></span></button>
+                        <div class="panel">
+                        <p>Payment for our cash fund registry is safe and secure thanks to our Stripe integration. You will connect your bank account via Stripe. The money is held until the last day of each month, when any available funds are paid out directly to the account you connected.</p>
+                        </div>
+                        <button class="accordion">Can users review my business on babycito? <span></span></button>
+                        <div class="panel">
+                        <p>Payment for our cash fund registry is safe and secure thanks to our Stripe integration. You will connect your bank account via Stripe. The money is held until the last day of each month, when any available funds are paid out directly to the account you connected.</p>
+                        </div>
+
+
+            
                 </div>
-            </div>
+                </div>
+                
         </div>
     </section>
+
+
+
+  
+
 
 <style>
         
@@ -1673,8 +2427,66 @@ button.btn.btn-default {
 </div>
 </footer>
 
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script>
+    $('.products-slider').owlCarousel({
+           loop: true,
+           margin: 0,
+           center: false,
+           nav: false,
+        // rtl: true,
+           dots: true,
+           autoplay:true,
+           autoplayTimeout:20000,
+           responsiveClass: true,
+           responsiveRefreshRate: true,
+           responsive : {
+               0 : {
+                   items: 1.2,
+                   margin:18
+               },
+               768 : {
+                   items: 2,
+                   margin:18
+               },
+               960 : {
+                   items: 2
+               },
+               1200 : {
+                   items: 2
+               },
+               1920 : {
+                   items: 2
+               }
+           }
+       });
+</script>  
+
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
 </div><script src="https://babycito.co/assets/frontend/js/main.js"></script>
+
 <script src="https://babycito.co/assets/admin/app-assets/vendors/js/extensions/toastr.min.js"></script>
+
 <script src="https://babycito.co/assets/admin/app-assets/js/scripts/extensions/toastr.js"></script>
 <script>
 	$('.blog_search').click(function(){
@@ -1724,6 +2536,7 @@ button.btn.btn-default {
 			return false;
 	});
 </script>
+
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -1821,5 +2634,17 @@ button.btn.btn-default {
                 });
             });
         </script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d5deb09800","applicationID":"742216182","transactionName":"YVVVMBRQWxADAURfV1gfdgcSWFoNTRJCWU5fVFIWFQ==","queueTime":0,"applicationTime":391,"atts":"TRJWRlxKSB4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d5deb09800","applicationID":"742216182","transactionName":"YVVVMBRQWxADAURfV1gfdgcSWFoNTRJCWU5fVFIWFQ==","queueTime":0,"applicationTime":391,"atts":"TRJWRlxKSB4=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<script>
+        const tigger = document.querySelector(".s_provider a");
+        const target = document.querySelector(".bg_search_area");
+        
+        tigger.addEventListener("click", ()=> {
+            target.classList.add("active_providor")
+        })
+    </script>
+
+
+</body>
 </html>

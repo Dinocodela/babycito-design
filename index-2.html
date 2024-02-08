@@ -16,6 +16,8 @@
 <link rel="stylesheet" type="text/css" href="https://babycito.co/assets/admin/app-assets/css/plugins/extensions/toastr.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="css/responsive.css">
 
 <style>
 .secPagetemp3 .textWrap.photoBlock {
@@ -377,17 +379,7 @@ button.btn.btn-default {
         line-height: 68px;
         margin-bottom: 17px;
     }
-    .title_banner p{
-        color: #5E6260;
-        font-family: Poppins;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.08px;
-        text-align: center;
-        margin-bottom: 0px;
-    }
+
     .search_area{
         width: 602px;
         height: 55px;
@@ -432,23 +424,44 @@ button.btn.btn-default {
             <div class="title_banner">
                 <h1>Find  Top-Rated Providers For Family Support </h1>
                 <p>Discover local, trusted providers to meet all your family’s needs and wants</p>
-                <div class="banner_search_area" >
-                    <div class="sl">
-                        <select name="" id="sl_category">
-                            <option value="Select Category" >Select Category</option> 
-                        </select> 
+                <div class="bg_search_area">
+                    <div class="left_section">
+                        <div class="dropdown">
+                            <a href=""><button class="dropbtn">Select Category 
+                                <i class="fa fa-caret-down dropdown_icon"></i>
+                            </button></a>
+                            <div class="dropdown-content">
+                                <div class="dropdown_cnt_wrapper">
+                                    <a href="#" class="drop_inner"><img src="img/drop_icons/d1.png" alt="">Childcare and Nanny</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d2.png" alt="">Sleep Support</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d3.png" alt="">Community / Groups</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d4.png" alt="">Parent Education</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d5.png" alt="">Fun / Activities</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d6.png" alt="">Family Health and Wellness</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d7.png" alt="">Home Management </a> 
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d1.png" alt="">Childcare and Nanny</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d2.png" alt="">Sleep Support</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d3.png" alt="">Community / Groups</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d4.png" alt="">Parent Education</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d5.png" alt="">Fun / Activities</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d6.png" alt="">Family Health and Wellness</a>
+                                <a href="#" class="drop_inner"><img src="img/drop_icons/d7.png" alt="">Home Management </a>  
+                                </div>                            
+                            </div>
+                        </div>
                     </div>
-                    <div class="line">
-                        <img src="img/svg/line_icon.png" alt="">    
+                    <div class="midel_section">
+                        <img src="img/svg/line_icon.png" alt="">  
+                        <img src="img/svg/map_icon.png" alt="" class="location_icon">  
+                        <input type="text" placeholder="City, State" class="cst_m">  
                     </div>
-                    <div class="map">
-                        <img src="img/svg/map_icon.png" alt="">  
-                        <input type="text" placeholder="City, State" class="cs">
-                        <button type="submit" class="btn">Search</button>
+                    <div class="right_section">
+                        <button type="submit" class="btn">Search</button> 
                     </div>
-                    
-                 </div>
-                <a href=""><h5>Search by Provider Name</h5></a>                 
+                </div>
+                <div class="s_provider">
+                    <a href="JavaScript:void(0)"><h5>Search by Provider Name</h5></a>    
+                </div>                
             </div>
             
             
@@ -918,5 +931,15 @@ button.btn.btn-default {
                 });
             });
         </script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d5deb09800","applicationID":"742216182","transactionName":"YVVVMBRQWxADAURfV1gfdgcSWFoNTRJCWU5fVFIWFQ==","queueTime":0,"applicationTime":391,"atts":"TRJWRlxKSB4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d5deb09800","applicationID":"742216182","transactionName":"YVVVMBRQWxADAURfV1gfdgcSWFoNTRJCWU5fVFIWFQ==","queueTime":0,"applicationTime":391,"atts":"TRJWRlxKSB4=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<script>
+        const tigger = document.querySelector(".s_provider a");
+        const target = document.querySelector(".bg_search_area");
+        
+        tigger.addEventListener("click", ()=> {
+            target.classList.add("active_providor")
+        })
+    </script>
+</body>
 </html>
