@@ -3,19 +3,6 @@
     display: block;
 }   
 
-    .table_area{
-        width: 100%!important;
-    }
-    .td_first {
-        text-align: left;
-    }
-    td.td_first {
-        width: 30%;
-    }
-    td.td_last {
-        width: 70%;
-    }
-
     .banner {
         width: 100%;
         height: 574px !important;
@@ -140,7 +127,6 @@
         gap: 10px;
         border-radius: 30px;
         border: 1px solid #3EB589;
-        
     }
 
     .sl {
@@ -205,11 +191,6 @@
     .s_provider{
         text-align: center;
         padding-bottom: 50px;
-    }
-    .inova_left h2 {
-        font-size: 26px!important;
-        font-weight: 700;
-        line-height: 32px!important;
     }
     .s_provider a h5 {
         color: #343837;
@@ -278,13 +259,6 @@
     .location_icon{
         margin-left: 12px;
     }
-    .btn_pr_area{
-        text-align: center;
-    }
-    .btn_all_cat, .btn_top_cat{
-        padding: 12px 24px;
-        
-    }
 
     /* provider_page_design */
     .icon_area {
@@ -299,7 +273,14 @@
         /* display: inline-block; */
         /* margin: 0 auto; */
     }
-  
+    /* .icon_area {
+        width: 35px;
+        padding-left: 11px;
+        padding-bottom: 10px;
+        position: absolute;
+        left: 0px;
+        bottom: 0;
+    } */
     .sec_providers {
         padding-top: 32px!important;
         padding-bottom: 48px!important;
@@ -335,6 +316,25 @@
         /* margin-bottom: 0px; */
     }
 
+    /* 1/18/24 */
+    /* .dropdown_icon {
+        position: absolute;
+        font-size: 18px;
+        left: 128px!important;
+        bottom: -3px;
+    }
+    .dropbtn {
+        color: #888C8B;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px!important;
+        letter-spacing: 0.07px;
+        background: #fff;
+        margin-left: 10px!important;
+        position: relative;
+    } */
     .dropbtn {
         color: #888C8B;
         font-family: Poppins;
@@ -571,23 +571,23 @@
     }
     .btn_s, .btn_c{
         
-        padding: 10px 16px!important;
+        padding: 10px 20px!important;
     }
     .btn_f, .btn_j {
         margin-left: 0px!important;
-        padding: 10px 16px!important;
+        padding: 10px 20px!important;
     }
     .left_area_bbst, .right_area_bbst {
         
         padding: 10px!important;
     }
-    .button_area{
-        margin-top: 60px!important;
+    .button_area {
+        /* margin-top: 58px!important; */
         text-align: center;
+        left: 20px!important;
+        bottom: 20px!important;
         
-    }
-    .button_area_r{
-        margin-top: 90px!important;
+        
     }
     .secbabycito_fss {
         width: 100%;
@@ -640,131 +640,4 @@
     }
 
 
-    .secbabycito_gift h2 {
-        font-size: 26px!important;
-        color: #484848;
-        font-weight: 600;
-    }
-
-    .left_question_area{
-        width: 100%;
-        padding: 10px!important;
-        margin-bottom: 30px!important;  
-    }
-    .gift_content p {
-        font-size: 16px!important;
-        margin-bottom: 30px!important;
-    }
-    .gift_content span{
-        color: #484848!important;
-        font-weight: 300!important;
-    }
-    .content_gift h2 {
-        font-size: 14px!important;
-        font-weight: 600;
-        text-align: left;
-        margin: 0px;
-    }
-    .secbabycito_gift {
-        padding-top: 32px!important;
-        background: #E1F6EE;
-        text-align: center;
-        padding-bottom: 32px!important;
-    }
-    .recent_blog {
-        padding-top: 32px!important;
-        padding-bottom: 32px!important;
-       
-    }
-    .recent_blog_content_area p {
-        font-size: 16px!important;
-        color: #363837;
-        text-align: center;
-        margin-bottom: 0px;
-    }
-    .recent_blog_content_area h2 {
-        font-size: 26px!important;
-        color: #484848;
-        font-weight: 600;
-        text-align: center;
-    }
-    .asked_questions h2 {
-        color: #363837;
-        font-family: Poppins;
-        font-size: 22px!important;
-        font-style: normal;
-        font-weight: 500!important;
-        line-height: 22px;
-        text-align: center;
-    }
-
-    .p_questions {
-        margin-top: 15px!important;
-        width: 100%;
-        color: #363837;
-        font-family: Poppins;
-        font-size: 15px!important;
-        font-style: normal;
-        font-weight: 500;
-        text-align: center!important;
-        line-height: 22px!important;
-    }
-    .ques_r {
-        background: #FFD6EF;
-        border-color: #535353;
-        color: #343434;
-        margin-left: 0px!important;
-    }
-    .ques_btn{
-        margin-top: 30px!important;
-    }
-    .ques {
-        margin-top: 30px;
-        padding: 10px 16px!important;
-        font-size: 13px!important;
-    }
-    .btn_area_ques{
-        text-align: center;
-        margin-bottom: 15px!important;
-    }
-    .accordion {
-      
-        padding: 10px!important;
-        width: 100%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 14px!important;
-        transition: 0.4s;
-        margin-bottom: 16px;
-        
-    }
-    .panel p {
-        font-size: 14px!important;
-        margin-top: 10px!important;
-        line-height: 22px!important;
-    }
-    .question_area {
-        padding-top: 32px!important;
-        padding-bottom: 32px!important;
-       
-    }
-
-
-    table td:last-child {
-        border-bottom: 0;
-        padding: 5px;
-        text-align: left;
-    }
-    .btn_phone, .btn_love{
-        padding: 10px 12px!important;
-      }
-
-      .layout_box_area {
-        width: 100% !important;
-        display: grid !important;
-        grid-template-columns: auto auto !important;
-        padding-top: 30px !important;
-        justify-content: space-between;
-      }
 }
