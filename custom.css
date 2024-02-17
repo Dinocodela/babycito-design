@@ -310,6 +310,9 @@ body {
   margin-top: 0px;
   border: 1px solid #3eb589;
 }
+.dtn:hover{
+  background: #379f79;
+}
 /* .btn{
     display: inline-flex;
     padding: 18px 34px;
@@ -1279,11 +1282,21 @@ body {
   color: #525252;
   margin-left: 15px;
 }
+table tr {
+  border-bottom: 0px solid #ddd;
+  /* display: block; */
+  display: table-row;
+  margin-bottom: 0.625em;
+}
+
+
 table td {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   padding: 10px 5px 10px 20px;
+  display: table-cell;
+  
 
 }
 .sp_btn{
@@ -1294,6 +1307,7 @@ table td {
   color: #5C5C5C;
   margin-right: 25px;
   font-weight: 500;
+  
 }
 .sp_drop_icon{
   font-size: 18px;
@@ -1323,3 +1337,40 @@ table td {
   color: #fff;
   background-color: #379f79;
 }
+.popup_area{
+  margin-left: 20px;
+ 
+  width: 65%;
+  background: #fff;
+  border-radius: 10px;
+
+}
+.close{
+  float: right; 
+  margin-right: 10px;
+  margin-top: 7px;
+  color: #F25959;
+  background: none;
+  font-size: 20px;
+}
+.popup_body{
+  padding: 25px;
+}
+.popup_gorup{
+  margin-bottom: 10px;
+}
+.popup_name{
+  background: #F4F5F6;
+  border-radius: 4px;
+}
+
+.popup_btn{
+  margin-top: 10px;
+  width: 100%; 
+  padding: 10px 16px;
+}
+.table_btn{
+  text-align: right;
+  
+}
+

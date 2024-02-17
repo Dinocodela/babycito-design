@@ -620,6 +620,9 @@
         margin: 10px;
         height: 375px!important;
     }
+    .box_area_m {
+        height: 415px!important;
+    }
     .secbabycito_fss{
         background-image: url(.//img/fss_bg_m.png);
         background-repeat: no-repeat;
@@ -637,6 +640,56 @@
     }
     .box_area_wiw{
         margin-bottom: 15px!important;
+    }
+    table td {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        /* padding: 2px!important; */
+        display: table-cell;
+        text-align: left;
+    }
+    .sp_btn_left{
+        background: #F9FCFA;
+        color: #5C5C5C;
+        margin-right: 0px!important;
+        font-weight: 500;
+      }
+      .sp_btn_right {
+        margin-right: 0px!important;
+    }
+    .sp_drop_icon {
+        font-size: 12px!important;
+        margin-left: 10px!important;
+        color: #808080;
+    }
+    .sp_btn {
+        padding: 8px 16px!important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .table_btn{
+        text-align: center!important;
+        
+    }
+    .table_btn_m{
+        padding: 0px!important;
+      }
+      .table_btn_1{
+        text-align: center!important;
+      }
+      .table_area_d {
+        margin: 0 auto;
+        width: 100%!important;
+        padding-bottom: 32px!important;
+    }
+    table td {
+        
+        padding: 15px;
+        
+    }
+    .sp_btn_right {
+        margin-left: 8px;
     }
 
 
